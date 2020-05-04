@@ -36,6 +36,7 @@ export default props => {
                             </Col>
                         </Col>
                     </Row>
+                    {/* <Col xs={12} sm={12} md={12} lg={12}>
                         <Col className="center-col" xs={12} sm={12} md={12} lg={12}>
                             <div className="link-bar">
                                 <img src={LinkedIn} height="15px" width="15px" className="link-img" />
@@ -45,9 +46,8 @@ export default props => {
                                 <img src={Mail} height="15px" width="15px" className="link-img" />
                             </div>
                         </Col>
-                    <Row>
-
-                    </Row>
+                    </Col> */}
+                    <Row></Row>
                     {/* </div> */}
                     </Container>
             </div>

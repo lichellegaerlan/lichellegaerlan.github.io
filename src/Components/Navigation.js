@@ -4,13 +4,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navigation.css';
 
+import Menu from './menu.svg';
+
 export default props => {
     return(
         <div>
-            <Navbar className="nav" expand="lg">
+            <Navbar className="nav" expand="md">
                 {/* this part is where the logo will go */}
                 {/* <Navbar.Brand href="#home">Lichelle Gaerlan</Navbar.Brand> */}
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav">
+                    <span><img src={Menu} /></span>
+                </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#home" id="nav-link">Home</Nav.Link>
