@@ -14,8 +14,8 @@ export default props => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#home" id="nav-link">Home</Nav.Link>
-                        <Nav.Link href="#about" id="nav-link">About</Nav.Link>
-                        <Nav.Link href="#about" id="nav-link">Work Experience</Nav.Link>
+                        {/* <Nav.Link href="#about" id="nav-link">About</Nav.Link> */}
+                        <Nav.Link href="#experience" id="nav-link">Work Experience</Nav.Link>
                         <Nav.Link href="#portfolio" id="nav-link">Portfolio</Nav.Link>
                         <Nav.Link href="#contact" id="nav-link">Contact</Nav.Link>
                     </Nav>
