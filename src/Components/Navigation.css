@@ -1,0 +1,24 @@
+.nav {
+    font-family: 'Helvetica';
+    font-weight: 150;
+    font-size: 13px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+#nav-link:hover {
+    color: #fff;
+    background-color: #adc9e0;
+    opacity: 0.8;
+
+    /* enable for green tea theme */
+    /* color: #999; */
+    /* background-color: #d0f0c0; */
+}
+
+#nav-link:active {
+    color: #adc9e0;
+    background-color: #fff;
+}
