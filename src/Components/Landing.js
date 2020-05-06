@@ -23,7 +23,7 @@ export default props => {
                                 <div className="hello-world">Hello World! I'm</div>
                                 <div className="about-title">Lichelle Gaerlan</div>
                                 <div className="about-subtitle">Computer Science Student / Network Technician</div>
-                                <div className="divider"></div>
+                                <hr style={{ backgroundColor: '#9fc2b7' }}/>
                                 <div className="about-text">
                                     I am an upcoming graduate from the University of Nevada, Las Vegas (UNLV)
                                     with a B.S. in Computer Science. I graduated with a concentration in

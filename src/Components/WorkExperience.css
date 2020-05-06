@@ -1,28 +1,56 @@
+.work-experience {
+    background-color: #42403c;
+    padding-top: 50px;
+    height: auto;
+}
+
+.heading {
+    text-align: left;
+    line-height: 0px;
+    padding-left: 230px;
+}
+
 .work-title {
     font-family: 'Muli';
     font-size: 115%;
-    color: #9fc2b7;
+    color: #a2c5be;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-.header {
-    font-family: 'Helvetica';
-    color: #c7dbd5;
-    font-size: 175%;
-    font-weight: 400;
-    letter-spacing: 2px;
+.work-heading {
+    font-family: 'Roboto';
+    font-size: 150%;
+    font-weight: 100;
+    color: #a2c5be;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 5px;
 }
 
 .sub {
-    color: #8b8378;
-    font-size: 125%;
+    font-family: 'Roboto';
+    font-size: 120%;
+    font-weight: 100;
+    letter-spacing: 10px;
+    line-height: 30px;
 }
+
+.header {
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 120%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 50px;
+}
+
 
 .work-subtitle {
     font-family: 'Muli';
     font-size: 100%;
-    color: #8b8378;
+    color: #dcd7cf;
     font-weight: 600;
 }
 
@@ -30,7 +58,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 90%;
-    color: #8b8378;
+    color: #dcd7cf;
     letter-spacing: 0.5px;
     text-align: left;
 }
@@ -41,4 +69,26 @@
     color: #5b5853;
     font-size: 100%;
     letter-spacing: 1px;
+}
+
+.resume {
+    font-family: 'Roboto';
+    font-size: 80%;
+    font-weight: 700;
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    background-color: #a2c5be; 
+    border-radius: 3px;
+}
+
+.resume:hover {
+    color: #fff;
+    background-color: #bdd6d1;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    .heading {
+        padding-left: 22px;
+    }
 }
