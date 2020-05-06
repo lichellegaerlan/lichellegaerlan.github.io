@@ -10,7 +10,7 @@
     font-family: 'Helvetica';
     color: #c7dbd5;
     font-size: 175%;
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -28,6 +28,8 @@
 
 .work-desc {
     font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 90%;
     color: #8b8378;
     letter-spacing: 0.5px;
     text-align: left;

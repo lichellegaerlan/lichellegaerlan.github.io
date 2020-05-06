@@ -2,51 +2,44 @@ import React from 'react';
 
 import './WorkExperience.css';
 
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-
-import { ReactComponent as WorkIcon } from './work.svg';
-import { ReactComponent as SchoolIcon } from './school.svg';
-
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 export default props => {
     return(
         <a name="experience">
-            <h1 className="header">Work Experience and Education</h1>
-            {/* <h1 className="header sub"></h1> */}
-            <VerticalTimeline>
-                <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Helvetica', fontWeight: '900' }}
-                    contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="08/2015 to 05/2020"
-                    dateClassName="date-text"
-                    iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
-                    icon={<SchoolIcon />}
+            <h1 className="header">Work Experience &amp; Education</h1>
+            <Timeline lineColor={'#b3ada6'}>
+                <TimelineItem
+                    dateText="08/2015 to 05/2020"
+                    style={{ color: '#b5dbd4' }}
+                    dateInnerStyle={{ background: '#b5dbd4', color: '#fff', fontFamily: 'Helvetica', fontWeight: '200', letterSpacing: '1.5px' }}
                 >
                     <h1 className="work-title">Bachelor's of Science in Computer Science</h1>
-                    <h1 className="work-subtitle">University of Nevada, Las Vegas</h1>
-                    <p className="work-desc" style={{ fontSize: '90%' }} >
+                    <h1 className="work-subtitle">University of Nevada, Las Vegas</h1> <br/>
+                    <p className="work-desc">
                         <b>
                         Concentration: Information Assurance<br/>
                         Minor: Mathematics<br/>
-                        Honors: Cum Laude<br/>
+                        Honors: Cum Laude<br/><br/>
                         </b>
                     </p>
-                </VerticalTimelineElement>
+                    <p className="work-desc" style={{ fontSize: '85%' }}>
+                        <b>
+                        Relevant Courses: Computer Networks, Computer Security, Information Assurance, Internet Security,
+                        Data Structures, Algorithm Analysis, Operating Systems, Software Product Design &amp; Development,
+                        Technical Writing 
+                        </b>
+                    </p>
+                </TimelineItem>
 
-                <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Muli', fontWeight: '900' }}
-                    contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="04/2018 to Present"
-                    dateClassName="date-text"
-                    iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
-                    icon={<WorkIcon />}
+                <TimelineItem
+                    dateText="04/2018 to Present"
+                    style={{ color: '#b5dbd4' }}
+                    dateInnerStyle={{ background: '#b5dbd4', color: '#fff', fontFamily: 'Helvetica', fontWeight: '200', letterSpacing: '1.5px' }}
                 >
                     <h1 className="work-title">Network Technician</h1>
-                    <h1 className="work-subtitle">UNLV Network Development and Engineering</h1>
-                    <p className="work-desc" style={{ fontSize: '80%' }} >
+                    <h1 className="work-subtitle">UNLV Network Development and Engineering</h1> <br/>
+                    <p className="work-desc" style={{fontSize: '85%'}}>
                         <b>
                         {/* <center>Main Duties:<br/></center> */}
                         ∙ Configuring, installing, and troubleshooting Cisco switches, voice gateways, uninterruptible power supplies (UPS), and wireless access points<br/>
@@ -56,20 +49,16 @@ export default props => {
                         ∙ Basic automation scripting to assist network engineers with projects<br/>
                         </b>
                     </p>
-                </VerticalTimelineElement>
+                </TimelineItem>
 
-                <VerticalTimelineElement
-                    // className="vertical-timeline-element--work"
-                    contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Helvetica', fontWeight: '900' }}
-                    contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="08/2018 to 05/2019"
-                    dateClassName="date-text"
-                    iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
-                    icon={<WorkIcon />}
+                <TimelineItem
+                    dateText="08/2018 to 08/2019"
+                    style={{ color: '#b5dbd4' }}
+                    dateInnerStyle={{ background: '#b5dbd4', color: '#fff', fontFamily: 'Helvetica', fontWeight: '200', letterSpacing: '1.5px' }}
                 >
                     <h1 className="work-title">Teaching Assistant and Peer Mentor</h1>
-                    <h1 className="work-subtitle">UNLV College of Engineering</h1>
-                    <p className="work-desc" style={{ fontSize: '85%' }}>
+                    <h1 className="work-subtitle">UNLV College of Engineering</h1> <br/>
+                    <p className="work-desc">
                         <b>
                         Worked with first-year and second-year computer science students to provide guidance and tutoring
                         in the student’s classes and first-year seminar engineering projects.
@@ -77,8 +66,8 @@ export default props => {
                         mobile application development with Android Studio, and drone programming in Python.
                         </b>
                     </p>
-                </VerticalTimelineElement>
-            </VerticalTimeline>
+                </TimelineItem>
+            </Timeline>
         </a>
     );
 }
