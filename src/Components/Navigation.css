@@ -2,14 +2,14 @@
     font-family: 'Helvetica';
     font-weight: 500;
     font-size: 13px;
-    color: #555;
+    color: #5b5853;
     text-transform: lowercase;
     letter-spacing: 1px;
     background-color: #fff;
 }
 
 #nav-link:hover {
-    color: #adc9e0;
+    color: #afccc3;
     font-weight: 600;
     font-style: italic;
 
@@ -19,6 +19,6 @@
 }
 
 #nav-link:active {
-    color: #adc9e0;
+    color: #afccc3;
     background-color: #fff;
 }

@@ -20,12 +20,12 @@ export default props => {
                         </Col>
                         <Col xs={12} sm={12} md={8} lg={8}>
                             <Col xs={12} sm={12} md={12} lg={12}>
-                                <div className="hello-world">Hello World!</div>
-                                <div className="about-title">I'm <font color="#adc9e0"><b>Lichelle Gaerlan</b></font></div>
-                                <div className="about-subtitle">Computer Science B.S. | Network Technician</div>
+                                <div className="hello-world">Hello World! I'm</div>
+                                <div className="about-title">Lichelle Gaerlan</div>
+                                <div className="about-subtitle">Computer Science Student / Network Technician</div>
                                 <div className="divider"></div>
                                 <div className="about-text">
-                                    I am an upcoming graduate from the University of Nevada - Las Vegas (UNLV)
+                                    I am an upcoming graduate from the University of Nevada, Las Vegas (UNLV)
                                     with a B.S. in Computer Science. I graduated with a concentration in
                                     Information Assurance and a minor in Mathematics, as well as receiving the honor as
                                     <i> Cum Laude</i>. During my time at UNLV, I worked as a Network Technician within
@@ -33,6 +33,10 @@ export default props => {
                                     in computer networking concepts and real-world applications. I am seeking opportunities
                                     in anything related to computer networking, computer security, and front-end design.
                                 </div>
+                                <br/>
+                                <button className="b1">Work Experience ></button>
+                                <button className="b1 v2">Contact ></button>
+                                <br/>
                             </Col>
                         </Col>
                     </Row>

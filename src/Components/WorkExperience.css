@@ -1,120 +1,42 @@
-.work-experience {
-    padding: 30px 0px 30px 0px;
-}
-
 .work-title {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 175%;
-    color: #777;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-top: 30px;
-}
-
-.divider2 {
-    height: 1px;
-    width: 100%;
-    border-style: solid;
-    border-color: #adc9e0;
-    border-width: 0.3px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    opacity: 0.8;
-}
-
-.dot {
-    opacity: 0.4;
-}
-
-.vertical-div {
-    height: 200px;
-    width: 1px;
-    border-style: solid;
-    border-color: #adc9e0;
-    border-width: 0.3px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    opacity: 0.8;
-}
-
-/* .description {
-    font-family: 'Roboto';
-    font-size: 85%;
-    color: #555;
-    justify-content: left;
-    text-align: left;
-    padding-top: 4px;
-} */
-
-#company {
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 100%;
-    color: #adc9e0;
-    justify-content: left;
-    text-align: left;
+    font-family: 'Muli';
+    font-size: 115%;
+    color: #9fc2b7;
+    font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
 }
 
-#position {
-    font-family: 'Roboto';
+.header {
+    font-family: 'Helvetica';
+    color: #c7dbd5;
+    font-size: 175%;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.sub {
+    color: #8b8378;
+    font-size: 125%;
+}
+
+.work-subtitle {
+    font-family: 'Muli';
+    font-size: 100%;
+    color: #8b8378;
     font-weight: 600;
-    font-size: 70%;
-    color: #888;
-    justify-content: left;
-    text-align: left;
-    letter-spacing: 1px;
 }
 
-#company-text {
+.work-desc {
     font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 60%;
-    color: #888;
-    justify-content: left;
+    color: #8b8378;
+    letter-spacing: 0.5px;
     text-align: left;
+}
+
+.date-text {
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: #5b5853;
+    font-size: 100%;
     letter-spacing: 1px;
-}
-
-@media screen and (min-width: 300px) and (max-width: 767px){
-    .hide {
-        display: none !important;
-    }
-    .work-title {
-        font-size: 90%;
-    }
-    .divider2 {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    #company {
-        font-size: 50%;
-        padding: 10px 20px 10px 20px;
-    }
-    #position {
-        padding: 10px 20px 10px 20px;
-    }
-    #company-text {
-        padding: 10px 20px 10px 20px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1050px){
-    .work-experience {
-        padding: 10px 20px 10px 20px;
-    }
-    .work-title {
-        font-size: 90%;
-        padding: 20px 0px 2px 0px;
-    }
-    /* .description {
-        text-align: left;
-        font-size: 1%;
-    } */
-    #company {
-        font-size: 10%;
-    }
 }
