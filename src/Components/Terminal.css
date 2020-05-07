@@ -26,7 +26,7 @@
     background: #556270; /* fallback for old browsers */
     /* background-image: -webkit-linear-gradient(to right, #c7dbd5, #ebe8e3); 
     background-image: linear-gradient(to right, #c7dbd5, #ebe8e3);  */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./test.jpg);
+    background-image: linear-gradient(rgba(85, 85, 85, 0.8), rgba(0, 0, 0, 0.8)), url(./test.jpg);
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -40,6 +40,5 @@
     font-size: 200%;
     font-weight: 100;
     text-align: center;
-    display: inline-block;
-    vertical-align:middle;
+    justify-content: center;
 }

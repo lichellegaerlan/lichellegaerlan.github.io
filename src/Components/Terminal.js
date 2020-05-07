@@ -23,12 +23,16 @@ export default props => {
         //     </Row>
         // </Container>
         <div className="terminal">
-            <Container>
+            <Container className="hi">
+            {/* <div className="hi"> */}
                 <Row>
-                    <Col xs={12} sm={12} md={12} lg={12}>
-                    <div className="hi">hi</div>
-                    </Col>
+                    
+                        <Col xs={12} sm={12} md={12} lg={12}>
+                            <h1>hi</h1>
+                        </Col>
+                    
                 </Row>
+                {/* </div> */}
             </Container>
         </div>
     );
