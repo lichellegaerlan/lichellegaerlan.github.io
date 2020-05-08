@@ -2,7 +2,7 @@
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 175%;
-    color: #555;
+    color: #8f8983;
     text-align: center;
     background-color: #fff;
     /* background-color: #ccddce; */
@@ -53,6 +53,7 @@
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 50%;
+    letter-spacing: 0.5px;
 }
 
 
