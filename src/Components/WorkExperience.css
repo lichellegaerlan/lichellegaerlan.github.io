@@ -1,5 +1,5 @@
 .work-experience {
-    background-color: #42403c;
+    background-color: #fff;
     padding-top: 50px;
     height: auto;
 }
@@ -11,7 +11,7 @@
 }
 
 .work-title {
-    font-family: 'Muli';
+    font-family: 'Roboto';
     font-size: 115%;
     color: #a2c5be;
     font-weight: 700;
@@ -19,8 +19,8 @@
 }
 
 .work-heading {
-    font-family: 'Roboto';
-    font-size: 150%;
+    font-family: "Helvetica";
+    font-size: 160%;
     font-weight: 100;
     color: #a2c5be;
     text-transform: uppercase;
@@ -29,8 +29,8 @@
 }
 
 .sub {
-    font-family: 'Roboto';
-    font-size: 120%;
+    font-family: "Helvetica";
+    font-size: 130%;
     font-weight: 100;
     letter-spacing: 10px;
     line-height: 30px;
@@ -50,7 +50,7 @@
 .work-subtitle {
     font-family: 'Muli';
     font-size: 100%;
-    color: #dcd7cf;
+    color: #6e6b67;
     font-weight: 600;
 }
 
@@ -58,7 +58,7 @@
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 90%;
-    color: #dcd7cf;
+    color: #585652;
     letter-spacing: 0.5px;
     text-align: left;
 }

@@ -25,12 +25,12 @@ export default props => {
                                 <div className="about-subtitle">Computer Science Student / Network Technician</div>
                                 <hr style={{ backgroundColor: '#9fc2b7' }}/>
                                 <div className="about-text">
-                                    I am an upcoming graduate from the University of Nevada, Las Vegas (UNLV)
-                                    with a B.S. in Computer Science. I graduated with a concentration in
-                                    Information Assurance and a minor in Mathematics, as well as receiving the honor as
-                                    <i> Cum Laude</i>. During my time at UNLV, I worked as a Network Technician within
+                                    I am a recent graduate from the University of Nevada, Las Vegas (UNLV)
+                                    with a Bachelor's in Computer Science. I graduated with a concentration in
+                                    Information Assurance and a minor in Mathematics.
+                                    During my time at UNLV, I worked as a Network Technician within
                                     UNLV's Network Development and Engineering department, which provided me foundational knowledge
-                                    in computer networking concepts and real-world applications. I am seeking opportunities
+                                    in computer networking concepts and its real-world applications. I am seeking opportunities
                                     in anything related to computer networking, computer security, and front-end design.
                                 </div>
                                 <br/>

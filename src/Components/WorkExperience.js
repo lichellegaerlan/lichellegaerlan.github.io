@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './WorkExperience.css';
-import WorkTitle from './work_title.png';
 
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
@@ -14,7 +13,7 @@ export default props => {
                     <h1 className="work-heading">Work Experience</h1>
                     <h1 className="work-heading sub">+ Education</h1>
                 </div>
-                <Timeline lineColor={'#b3ada6'}>
+                <Timeline lineColor={'#bab5ae'}>
                     <TimelineItem
                         dateText="08/2015 to 05/2020"
                         style={{ color: '#b5dbd4' }}

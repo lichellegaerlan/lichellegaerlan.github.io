@@ -1,0 +1,64 @@
+.skills {
+    font-family: "Helvetica";
+    font-weight: 100;
+    font-size: 175%;
+    color: #555;
+    text-align: center;
+    background-color: #fff;
+    /* background-color: #ccddce; */
+    /* background-color: #717e7a; */
+    /* height: 100vh; */
+
+    /* padding: top right bottom left */
+    padding: 40px 40px 40px 40px;
+}
+
+.heading {
+    text-align: left;
+    line-height: 0px;
+    /* padding-left: 10px; */
+}
+
+.skills-heading {
+    font-family: 'Roboto';
+    font-size: 115%;
+    font-weight: 100;
+    color: #6b6763;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 12px;
+}
+
+.sub {
+    font-family: 'Roboto';
+    font-size: 50%;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 1px;
+}
+
+.skills-card {
+    width: 90%;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(232, 230, 228, 0.3), 0 6px 20px 0 rgba(232, 230, 228, 0.3);
+}
+
+.card-dash {
+    font-family: "Helvetica";
+    font-size: 50%;
+}
+
+.card-text {
+    font-family: "Helvetica";
+    font-weight: 100;
+    font-size: 50%;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    .skills {
+        height: 100%;
+    }
+}
