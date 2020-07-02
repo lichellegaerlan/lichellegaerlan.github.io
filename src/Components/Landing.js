@@ -22,20 +22,19 @@ export default props => {
                             <Col xs={12} sm={12} md={12} lg={12}>
                                 <div className="hello-world">Hello World! I'm</div>
                                 <div className="about-title">Lichelle Gaerlan</div>
-                                <div className="about-subtitle">Computer Science Student / Network Technician</div>
-                                <hr style={{ backgroundColor: '#9fc2b7' }}/>
+                                <div className="about-subtitle">Computer Science Graduate / Network Technician</div>
+                                <hr style={{ backgroundColor: '#C9CEE9' }}/>
                                 <div className="about-text">
                                     I am a recent graduate from the University of Nevada, Las Vegas (UNLV)
                                     with a Bachelor's in Computer Science. I graduated with a concentration in
-                                    Information Assurance and a minor in Mathematics.
+                                    Information Assurance and a minor in Mathematics. <br/><br/>
                                     During my time at UNLV, I worked as a Network Technician within
                                     UNLV's Network Development and Engineering department, which provided me foundational knowledge
                                     in computer networking concepts and its real-world applications. I am seeking opportunities
                                     in anything related to computer networking, computer security, and front-end design.
                                 </div>
                                 <br/>
-                                <button className="b1">Work Experience ></button>
-                                <button className="b1 v2">Contact ></button>
+                                <button className="b1">See My Work ></button>
                                 <br/>
                             </Col>
                         </Col>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Skills.css';
-import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
 import Test from './test.jpg';
 import Networks from './networks.png';
@@ -29,31 +29,47 @@ export default props => {
                             <Card className="skills-card">
                                 <Card.Img variant="top" src={Networks} />
                                 <Card.Body>
-                                    <Card.Text className="card-text">
-                                        &ndash;&ndash;<br/>
-                                        Computer Networking
+                                    <Card.Text>
+                                        <h1 className="skills-header">Computer Networking</h1>
+                                        <p className="card-text">
+                                            I am proficient with Cisco IOS, and have working experience
+                                            configuring, installing, and troubleshooting Cisco devices. I also
+                                            have extensive experience with data/fiber cabling, IP address management, 
+                                            and automation scripting.
+                                        </p>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                        {/* </Col> */}
+                        {/* <Col xs={12} sm={12} md={3} lg={3}> */}
+                        <Card className="skills-card">
+                            <Card.Img variant="top" src={UI} />
+                            <Card.Body>
+                                <Card.Text className="card-text">
+                                    <h1 className="skills-header">UI/UX Design</h1>
+                                    <p className="card-text" style={{ fontSize: '56%' }}>
+                                        I believe that well designed software products stem from
+                                        the UX industry. I love designing elegant, engaging, and
+                                        efficient product experiences alongside a beautiful user interface.
+                                        <br/><br/>
+                                        my process > 
+                                    </p>
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                         {/* </Col> */}
                         {/* <Col xs={12} sm={12} md={3} lg={3}> */}
                             <Card className="skills-card">
                                 <Card.Img variant="top" src={Web} />
                                 <Card.Body>
                                     <Card.Text className="card-text">
-                                        &ndash;&ndash;<br/>
-                                        Responsive Web Design
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        {/* </Col> */}
-                        {/* <Col xs={12} sm={12} md={3} lg={3}> */}
-                            <Card className="skills-card">
-                                <Card.Img variant="top" src={UI} />
-                                <Card.Body>
-                                    <Card.Text className="card-text">
-                                        &ndash;&ndash;<br/>
-                                        UI/UX Design
+                                        <h1 className="skills-header">Responsive Web Design</h1>
+                                        <p className="card-text" style={{ fontSize: '60%' }}>
+                                            Using ReactJS and HTML/CSS, I have found that it is pertinent to implement
+                                            responsive web features that will allow the website to be mobile-friendly, flexible,
+                                            and improve the overall user experience to increase visistor traffic.
+                                            <br/><br/>
+                                        </p>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -63,8 +79,11 @@ export default props => {
                                 <Card.Img variant="top" src={Other} />
                                 <Card.Body>
                                     <Card.Text className="card-text">
-                                        &ndash;&ndash;<br/>
-                                        Other
+                                        <h1 className="skills-header">Scripting</h1>
+                                        <p className="card-text" style={{ fontSize: '56%' }}>
+                                            Programming using Python and C++
+                                            <br/><br/>
+                                        </p>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>

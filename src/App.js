@@ -10,13 +10,14 @@ import WorkExperience from './Components/WorkExperience';
 import Portfolio from './Components/Portfolio';
 
 function App() {
+  const target = React.createRef();
   return (
     <div className="App">
       <Navigation />
       {/* <Terminal /> */}
       <Landing />
       <Skills />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
       <Portfolio />
     </div>
   );

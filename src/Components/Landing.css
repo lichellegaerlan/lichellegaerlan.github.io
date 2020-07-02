@@ -35,7 +35,7 @@
     font-weight: 700;
     font-size: 50%;
     color: #fff;
-    background-color: #b5dbd4;
+    background-color: #C9CEE9;
     opacity: 0.8;
     letter-spacing: 2px;
     text-align: center;
@@ -48,7 +48,7 @@
 .about-title {
     font-family: 'Helvetica';
     /* font-family: 'Playfair Display', serif; */
-    color: #c7dbd5;
+    color: #C9CEE9;
     font-weight: 400;
     font-size: 170%;
     letter-spacing: 5px;
@@ -58,7 +58,7 @@
 .about-subtitle {
     font-family: 'Helvetica';
     font-weight: 300;
-    color: #9fc2b7;
+    color: #C9CEE9;
     font-weight: 500;
     font-size: 50%;
     letter-spacing: 2px;
@@ -88,7 +88,7 @@
     font-family: 'Muli';
     font-weight: 700;
     font-size: 50%;
-    color: #9fc2b7;
+    color: #a0a4ba;
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
