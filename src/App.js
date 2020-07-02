@@ -7,6 +7,7 @@ import Terminal from './Components/Terminal';
 import Landing from './Components/Landing';
 import Skills from './Components/Skills';
 import WorkExperience from './Components/WorkExperience';
+// import WorkExperience_v2 from './Components/WorkExperience_v2';
 import Portfolio from './Components/Portfolio';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <Terminal /> */}
       <Landing />
       <Skills />
-      {/* <WorkExperience /> */}
+      {/* <WorkExperience_v2 /> */}
+      <WorkExperience />
       <Portfolio />
     </div>
   );

@@ -16,7 +16,8 @@ export default props => {
                     {/* <div className="about-me"> */}
                     <Row>
                         <Col xs={12} sm={12} md={4} lg={4}>
-                            <div className="about-img"><img src={Icon} width="175px" height="175px" /></div>
+                            <div className="about-img"><img src={Icon} width="175px" height="175px" /></div> <br/>
+                            <p>replace with character card</p>
                         </Col>
                         <Col xs={12} sm={12} md={8} lg={8}>
                             <Col xs={12} sm={12} md={12} lg={12}>

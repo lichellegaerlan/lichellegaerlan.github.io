@@ -12,14 +12,14 @@ import { ReactComponent as SchoolIcon } from './school.svg';
 export default props => {
     return(
         <a name="experience">
-            <h1 className="header">Work Experience and Education</h1>
+            <h1 className="work-title">Work Experience and Education</h1>
             {/* <h1 className="header sub"></h1> */}
             <VerticalTimeline>
                 <VerticalTimelineElement
                     // className="vertical-timeline-element--work"
                     contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Helvetica', fontWeight: '900' }}
                     contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="08/2015 to 05/2020"
+                    date=""
                     dateClassName="date-text"
                     iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
                     icon={<SchoolIcon />}
@@ -39,7 +39,7 @@ export default props => {
                     // className="vertical-timeline-element--work"
                     contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Muli', fontWeight: '900' }}
                     contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="04/2018 to Present"
+                    date=""
                     dateClassName="date-text"
                     iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
                     icon={<WorkIcon />}
@@ -62,7 +62,7 @@ export default props => {
                     // className="vertical-timeline-element--work"
                     contentStyle={{ background: '#fff', color: '#5b5853', fontFamily: 'Helvetica', fontWeight: '900' }}
                     contentArrowStyle={{ borderRight: '6px solid #8b8378' }}
-                    date="08/2018 to 05/2019"
+                    date=""
                     dateClassName="date-text"
                     iconStyle={{ background: '#b5dbd4', color: '#fff', height: '50px', width: '50px' }}
                     icon={<WorkIcon />}

@@ -1,6 +1,6 @@
 .work-experience {
     background-color: #fff;
-    padding-top: 50px;
+    padding: 40px 40px 40px 40px;
     height: auto;
 }
 
@@ -12,20 +12,22 @@
 
 .work-title {
     font-family: 'Roboto';
-    font-size: 115%;
-    color: #a2c5be;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-size: 175%;
+    font-weight: 100;
+    color: #6b6763;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 12px;
 }
 
 .work-heading {
     font-family: "Helvetica";
-    font-size: 160%;
+    font-size: 110%;
     font-weight: 100;
-    color: #a2c5be;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 5px;
+    color: #C9CEE9;
+    /* letter-spacing: 0.5px; */
+    /* line-height: 5px; */
+    text-align: left;
 }
 
 .sub {
@@ -48,10 +50,13 @@
 
 
 .work-subtitle {
-    font-family: 'Muli';
-    font-size: 100%;
+    font-family: "Helvetica";
+    font-size: 90%;
+    font-weight: 100;
     color: #6e6b67;
-    font-weight: 600;
+    /* line-height: 5px; */
+    text-align: left;
+    padding-bottom: 5px;
 }
 
 .work-desc {
@@ -90,5 +95,11 @@
 @media screen and (min-width: 300px) and (max-width: 1200px){
     .heading {
         padding-left: 22px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .work-title {
+        font-size: 110%;
     }
 }

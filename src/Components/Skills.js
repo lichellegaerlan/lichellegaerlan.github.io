@@ -81,7 +81,8 @@ export default props => {
                                     <Card.Text className="card-text">
                                         <h1 className="skills-header">Scripting</h1>
                                         <p className="card-text" style={{ fontSize: '56%' }}>
-                                            Programming using Python and C++
+                                            I am able to perform basic automation scripting using Python. 
+                                            Furthermore, I have experience using C++ and bash scripts.
                                             <br/><br/>
                                         </p>
                                     </Card.Text>
