@@ -74,8 +74,10 @@ export default props => {
                                 </Card.Body>
                             </Card>
                         {/* </Col> */}
+                        
+                        {/* Scripting card for iPad image */}
                         {/* <Col xs={12} sm={12} md={3} lg={3}> */}
-                            <Card className="skills-card">
+                            {/* <Card className="skills-card">
                                 <Card.Img variant="top" src={Other} />
                                 <Card.Body>
                                     <Card.Text className="card-text">
@@ -87,7 +89,7 @@ export default props => {
                                         </p>
                                     </Card.Text>
                                 </Card.Body>
-                            </Card>
+                            </Card> */}
                         {/* </Col> */}
                         </CardGroup>
                     </Row>

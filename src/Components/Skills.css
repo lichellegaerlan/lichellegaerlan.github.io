@@ -64,12 +64,14 @@
     letter-spacing: 0.5px;
 }
 
-
-
-
-
 @media screen and (min-width: 300px) and (max-width: 1200px){
     .skills {
         height: 100%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .skills-heading {
+        font-size: 85%;
     }
 }
