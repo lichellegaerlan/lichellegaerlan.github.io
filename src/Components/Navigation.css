@@ -50,8 +50,21 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+  
+ul li {
+    font-family: 'Helvetica';
+    padding: 8px;
+    font-weight: 100px;
+    font-size: 13px;
+    text-transform: lowercase;
+}
 
-.nav-link {
+.bruh {
     font-family: 'Helvetica';
     font-weight: 500;
     font-size: 13px;
@@ -59,12 +72,15 @@
     text-transform: lowercase;
     letter-spacing: 1px;
     background-color: #fff;
+    padding: 0px;
+    text-decoration: none;
 }
 
-#nav-link:hover {
+.bruh:hover {
     color: #588c7e;
     font-weight: 600;
     font-style: italic;
+    text-decoration: none;
 
     /* enable for green tea theme */
     /* color: #999; */

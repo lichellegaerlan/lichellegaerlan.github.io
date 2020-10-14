@@ -9,17 +9,23 @@ import Skills from './Components/Skills';
 import WorkExperience from './Components/WorkExperience';
 import Portfolio from './Components/Portfolio';
 
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 function App() {
   const target = React.createRef();
   return (
-    <div className="App">
-      <Navigation />
-      <Landing />
-      <About />
-      <Skills />
-      <WorkExperience />
-      <Portfolio />
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation />
+        <Switch>
+          <Route path="/" exact component={Landing} />
+          <Route path="/about" component={About} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/experience" component={WorkExperience} />
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
