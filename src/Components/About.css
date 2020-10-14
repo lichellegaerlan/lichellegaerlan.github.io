@@ -1,0 +1,154 @@
+.center-col {
+    font-size: 50%;
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+}
+
+.link-bar {
+    width: 100%;
+    height: 5%;
+    background-color: #79a397;
+    opacity: 0.7;
+    padding: 5px 0px 5px 0px;
+}
+
+.link-img {
+    opacity: 0.3;
+}
+
+.about-me {
+    font-family: 'Helvetica';
+    font-weight: 100;
+    font-size: 175%;
+    color: #777;
+    text-align: left;
+    height: 100vh;
+
+    /* padding: top right bottom left */
+    padding: 40px 0px 40px 0px;
+}
+
+.hello-world {
+    width: 27%;
+    height: 20%;
+    font-family: 'Muli';
+    font-weight: 700;
+    font-size: 50%;
+    color: #fff;
+    background-color: #79a397;
+    opacity: 0.8;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* padding: top right bottom left */
+    padding: 4px 4px 4px 4px;
+}
+
+.about-title {
+    font-family: 'Helvetica';
+    /* font-family: 'Playfair Display', serif; */
+    color: #79a397;
+    font-weight: 400;
+    font-size: 170%;
+    letter-spacing: 5px;
+    padding: 20px 0px 2px 0px;
+}
+
+.about-subtitle {
+    font-family: 'Helvetica';
+    font-weight: 300;
+    color: #79a397;
+    font-weight: 500;
+    font-size: 50%;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    /* padding: 20px 0px 30px 0px; */
+}
+
+.about-text {
+    font-family: 'Helvetica';
+    font-weight: 100;
+    /* font-family: 'Playfair Display', serif;  */
+    color: #7b7670;
+    font-size: 55%;
+    letter-spacing: 1px;
+}
+
+.about-img {
+    text-align: center;
+
+    /* margin: top right bottom left */
+    padding-top: 100px;
+    margin: 4px 4px 4px 4px;
+}
+
+.b1 {
+    font-family: 'Muli';
+    font-weight: 700;
+    font-size: 50%;
+    color: #79a397;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-width: 0px; 
+    margin: 5px 5px 5px 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+.b1:hover {
+    font-weight: 900;
+    color: #c7dbd5;
+}
+
+.v2 {
+    color: #fff;
+    background-color: #b5dbd4; 
+    border-radius: 5px;
+}
+
+.v2:hover {
+    color: #fff;
+    background-color: #9fc2b7;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .b1 {
+        font-size: 30%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1200px){
+    .about-me {
+        height: 100%;
+    }
+    .about-title {
+        font-size: 100%;
+        padding: 20px 0px 2px 0px;
+    }
+    .about-subtitle {
+        font-size: 40%;
+    }
+    .about-text {
+        font-size: 40%;
+    }
+    .hello-world {
+        font-size: 40%;
+        width: 100%;
+        opacity: 0.6;
+    }
+    .about-img {
+        text-align: center;
+        padding: 10px 4px 15px 4px;
+    }
+    .link-bar {
+        width: 100%;
+        opacity: 0.6;
+    }
+    .link-img {
+        width: 10px;
+        height: 10px;
+    }
+}
