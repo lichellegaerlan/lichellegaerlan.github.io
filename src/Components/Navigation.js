@@ -33,16 +33,20 @@ class Navigation extends React.Component {
             <li>About</li>
           </NavLink>
 
-          <Link className="bruh" onClick={this.closeMenu} to="/skills">
+          {/* <Link className="bruh" onClick={this.closeMenu} to="/skills">
             <li>Skills</li>
-          </Link>
+          </Link> */}
 
           <Link className="bruh" onClick={this.closeMenu} to="/experience">
-            <li>Work Experience</li>
+            <li>Skills + Experience</li>
           </Link>
 
           <Link className="bruh" onClick={this.closeMenu} to="/portfolio">
             <li>Portfolio</li>
+          </Link>
+
+          <Link className="bruh" onClick={this.closeMenu} to="/contact">
+            <li>Contact</li>
           </Link>
 
           {/* <li>

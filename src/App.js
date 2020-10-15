@@ -20,8 +20,11 @@ function App() {
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/experience" component={WorkExperience} />
+
+          {/* combined skills and experience pages underneath the /experience route */}
+          <Route path="/experience" component={Skills} />
+          {/* <Route path="/experience" component={WorkExperience} /> */}
+
           <Route path="/portfolio" component={Portfolio} />
         </Switch>
       </div>

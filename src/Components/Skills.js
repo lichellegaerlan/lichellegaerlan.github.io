@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './Skills.css';
+import WorkExperience from './WorkExperience';
+
 import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
 import Networks from './networks.png';
@@ -94,6 +96,8 @@ export default props => {
                     </Row>
                 </Container>
             </div>
+
+            <WorkExperience />
         </a>
     );
 }

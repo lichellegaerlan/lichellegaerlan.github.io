@@ -2,24 +2,19 @@
     height: 100vh;
 
     /* padding: top right bottom left */
-    padding: 15% 0px 0px 0px;
+    padding: 3% 0px 0px 0px;
 
     /* background-image: url("./stars.png"), linear-gradient(180deg, #FFF 70%, #bb8c86 30%);
     background-repeat: no-repeat;
     background-position: bottom 70% left 45%; */
-    background: linear-gradient(180deg, #FFF 70%, #bb8c86 30%);
+    /* background: linear-gradient(180deg, #FFF 70%, #bb8c86 30%); */
+    background: #fff;
 }
 
-
-.landing-icons {
-    margin-top: 20%;
-    background:#bb8c86;
-    display: flex;
-    justify-content: center;
-}
-  
-img {
-    align-self: flex-end;
+.pink-pls {
+    padding: 3% 5% 3% 5%;
+    margin-top: 25px;
+    background: #986359;
 }
 
 #about {
@@ -38,6 +33,27 @@ img {
     /* color:#9abab1; */
     color: #b48079;
     font-size: 150%;
+}
+
+.home-link-container {
+    margin-top: 8%;
+}
+
+.home-links {
+    font-family: 'Helvetica';
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 90%;
+    letter-spacing: 1px;
+    /* padding: top right bottom left */
+    padding: 0px 15px 0px 15px;
+}
+
+.home-links:hover {
+    color: #fff;
+    font-weight: 400;
+    /* font-style: italic; */
+    text-decoration: none;
 }
 
 .fade-in-about {
