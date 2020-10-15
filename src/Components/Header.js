@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default props => {
     return(
-        <div>
+        <div className="small-pink">
             <Navigation />
 
             <div className="logo-right">

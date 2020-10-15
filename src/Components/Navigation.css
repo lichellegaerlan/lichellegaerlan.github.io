@@ -90,3 +90,50 @@ ul li {
     color: #afccc3;
     background-color: #fff;
 }
+
+/* bigger computers */
+@media screen and (min-width: 1500px) {
+    .bm-burger-button {
+        width: 36px;
+        height: 24px;
+        margin-left: 15%;
+    }
+}
+  
+/* tablets */
+@media screen and (min-width: 601px) and (max-width: 1100px){
+    .bm-burger-button {
+        margin-top: 1%;
+    }
+    
+    .bm-burger-bars {
+        background: #fff;
+    }
+}
+  
+/* phone screens */
+@media screen and (min-width: 370px) and (max-width: 600px){
+    .bm-burger-button {
+        width: 24px;
+        height: 12px;
+        margin-left: 1px;
+    }
+
+    .bm-burger-bars {
+        background: #fff;
+    }
+}
+  
+@media screen and (min-width: 300px) and (max-width: 369px){
+    .bm-burger-button {
+        width: 24px;
+        height: 12px;
+        margin-left: 1px;
+    }
+
+    .bm-burger-bars {
+        background: #fff;
+    }
+}
+  
+  

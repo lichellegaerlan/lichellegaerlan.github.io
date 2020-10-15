@@ -16,3 +16,58 @@
     font-style: italic;
     text-decoration: none;
 }
+
+/* bigger computers */
+@media screen and (min-width: 1500px) {
+    .bm-burger-button {
+        width: 36px;
+        height: 24px;
+        margin-left: 15%;
+    }
+}
+  
+/* tablets */
+@media screen and (min-width: 601px) and (max-width: 1100px){
+    .logo-right {
+        padding-top: 1%;
+    }
+
+    .name {
+        color: #fff;
+    }
+}
+  
+/* phone screens */
+@media screen and (min-width: 200px) and (max-width: 600px){
+    .small-pink {
+        background: #986359;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logo-right {
+        padding-top: 5%;
+    }
+
+    .name {
+        color: #fff;
+    }
+}
+  
+/* @media screen and (min-width: 300px) and (max-width: 369px){
+    .small-pink {
+        background: #986359;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .logo-right {
+        padding-top: 5%;
+    }
+
+    .name {
+        color: #fff;
+    }
+} */
