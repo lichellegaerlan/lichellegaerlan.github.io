@@ -15,6 +15,17 @@ export default props => {
         <a name="about">
             <div className="skills">
                 <Container>
+                    <Row style={{ paddingTop: '8%', paddingBottom: '4%', textAlign: 'left' }}>
+                        <Col xs={12} sm={12} md={6} lg={6}>
+                            <h1 className="contact-name">Lichelle Gaerlan</h1>
+                            <p className="contact-info">
+                                <a className="email" href="mailto:lichellemaegaerlan@gmail.com">lichellemaegaerlan@gmail.com</a><br/>
+                                (702) 302-2920
+                            </p>
+                            <button className="resume-button">Resume PDF</button>
+                        </Col>
+                    </Row>
+
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={12}>
                             {/* <div className="heading"> */}

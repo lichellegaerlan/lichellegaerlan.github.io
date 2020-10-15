@@ -13,6 +13,57 @@
     padding: 40px 40px 40px 40px;
 }
 
+.contact-name {
+    font-family: 'Muli';
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #986359;
+    text-align: left;
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+.contact-info {
+    font-family: "Helvetica";
+    color: #8f8983;
+    font-weight: 100;
+    text-align: left;
+    font-size: 70%;
+}
+
+.email {
+    font-family: "Helvetica";
+    color: #8f8983;
+    font-weight: 100;
+    text-align: left;    
+}
+
+.email:hover {
+    color: #8f8983;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.resume-button {
+    font-family: 'Muli';
+    font-size: 50%;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #bb8c86;
+    color: #fff;
+    border: none;
+    /* padding: top right bottom left */
+    padding: 2% 8% 2% 8%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.resume-button:hover {
+    font-weight: 600;
+    color: #986359;
+    background-color: #fff;
+}
+
 .heading {
     text-align: left;
     line-height: 0px;

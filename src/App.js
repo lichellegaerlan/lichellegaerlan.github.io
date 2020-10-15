@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navigation from './Components/Navigation';
+import Header from './Components/Header';
 import Landing from './Components/Landing';
 import About from './Components/About';
 import Skills from './Components/Skills';
@@ -16,7 +17,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navigation />
+        {/* <Navigation /> */}
+        <Header />
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/about" component={About} />

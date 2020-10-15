@@ -57,11 +57,11 @@
 }
 
 .fade-in-about {
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
 }
 
 .fade-in-sub {
