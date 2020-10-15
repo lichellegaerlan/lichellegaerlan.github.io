@@ -10,7 +10,7 @@ export default props => {
             <Navigation />
 
             <div className="logo-right">
-                <Link className="name" to="/">lichelle <b>gaerlan</b></Link>
+                <Link className="name" to="/">lichelle <b><b>gaerlan</b></b></Link>
                 {/* <h1 id="name">lichelle <b>gaerlan</b></h1> */}
             </div>
         </div>

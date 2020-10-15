@@ -4,7 +4,7 @@
     /* padding: top right bottom left */
     padding: 3% 0px 0px 0px;
 
-    background: #fff;
+    background: #794f47;
 
     /* background-repeat: no-repeat; */
     /* background: linear-gradient(180deg, #FFF 70%, #bb8c86 30%); */
@@ -19,7 +19,7 @@
 .pink-pls {
     padding: 3% 5% 3% 5%;
     margin-top: 25px;
-    background: #986359;
+    background: #794f47;
 }
 
 #about {
@@ -41,7 +41,7 @@
 }
 
 .home-link-container {
-    margin-top: 8%;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -131,8 +131,13 @@
     width: 100%;
   }
 
+  .landing-image {
+    height: 450px;
+    width: 373.5px;
+  }
+
   .home-link-container {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 }
 
@@ -144,7 +149,6 @@
     padding-left: 0px;
     padding-bottom: 0px;
     margin: 0px;
-    background: #986359;
   }
 
   .landing-image {
@@ -177,7 +181,7 @@
   .pink-pls {
     /* padding: top right bottom left */
     margin: 0px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
 

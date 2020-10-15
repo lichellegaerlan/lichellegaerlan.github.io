@@ -5,24 +5,22 @@
 }
 
 .name {
-    font-family: 'Helvetica';
-    color: #b48079;
+    font-family: 'Oxygen';
+    color: #e0d0cd;
     font-weight: 100;
     font-size: 100%;
 }
 
 .name:hover {
-    color: #b48079;
+    color: #fff;
     font-style: italic;
     text-decoration: none;
 }
 
 /* bigger computers */
 @media screen and (min-width: 1500px) {
-    .bm-burger-button {
-        width: 36px;
-        height: 24px;
-        margin-left: 15%;
+    .name {
+        font-size: 175%;
     }
 }
   
@@ -40,7 +38,7 @@
 /* phone screens */
 @media screen and (min-width: 200px) and (max-width: 600px){
     .small-pink {
-        background: #986359;
+        background: #794f47;
         position: absolute;
         height: 100%;
         width: 100%;
