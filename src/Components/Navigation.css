@@ -12,14 +12,15 @@
   
 .bm-burger-button {
     position: fixed;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 15px;
     left: 24px;
     top: 24px;
 }
   
 .bm-burger-bars {
-    background: #263238;
+    /* background: #263238; */
+    background: #b48079;
 }
   
 .bm-cross-button {
@@ -77,14 +78,11 @@ ul li {
 }
 
 .bruh:hover {
-    color: #588c7e;
+    /* color: #588c7e; */
+    color: #bb8c86;
     font-weight: 600;
     font-style: italic;
     text-decoration: none;
-
-    /* enable for green tea theme */
-    /* color: #999; */
-    /* background-color: #d0f0c0; */
 }
 
 #nav-link:active {

@@ -3,7 +3,6 @@ import React from 'react';
 import './Skills.css';
 import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
-import Test from './test.jpg';
 import Networks from './networks.png';
 import Web from './web.png';
 import UI from './ui.png';

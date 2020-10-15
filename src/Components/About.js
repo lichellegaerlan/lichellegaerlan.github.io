@@ -4,9 +4,6 @@ import './About.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Icon from './icon_thick.png';
-import LinkedIn from './linkedin.svg';
-import Github from './github.svg';
-import Mail from './gmail.svg';
 
 export default props => {
     return(
