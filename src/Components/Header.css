@@ -18,7 +18,13 @@
 }
 
 /* bigger computers */
-@media screen and (min-width: 1500px) {
+@media screen (min-width: 1400px) {
+    .name {
+        font-size: 200%;
+    }
+}
+
+@media screen (min-width: 1199px) and (max-width: 1399px) {
     .name {
         font-size: 175%;
     }
