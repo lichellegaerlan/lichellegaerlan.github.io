@@ -61,6 +61,18 @@
     background-color: #fff;
 }
 
+.resume-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    font-weight: 600;
+    color: #986359;
+    background-color: #fff;
+    text-decoration: none;
+}
+
 .skills-card {
     width: 90%;
     text-align: center;

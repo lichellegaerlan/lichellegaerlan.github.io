@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Skills.css';
 import WorkExperience from './WorkExperience';
+import ResumePage from './Resume';
 
 import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
@@ -9,13 +10,12 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 
-import Collapsible from 'react-collapsible';
-
 
 import Networks from './networks.png';
 import Web from './web.png';
 import UI from './ui.png';
-import Other from './other.png';
+
+import Resume from './LichelleMaeGaerlan_Resume.pdf';
 
 export default props => {
     return(
@@ -29,7 +29,11 @@ export default props => {
                                 <a className="email" href="mailto:lichellemaegaerlan@gmail.com">lichellemaegaerlan@gmail.com</a><br/>
                                 (702) 302-2920
                             </p>
-                            <button className="resume-button">Resume PDF</button>
+                            <button className="resume-button">
+                                <a href={Resume} className="resume-link" target="_blank">
+                                Resume PDF
+                                </a>
+                            </button>
                         </Col>
                     </Row>
 
@@ -53,17 +57,18 @@ export default props => {
                                             and automation scripting.
                                         </p> */}
 
+                                        
                                         <ExpansionPanel style={{ boxShadow: "none" }}>
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff", justifyContent: "center" }}>
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="card-text">
-                                                Troubleshoot customer's network connectivity <br/>
-                                                Configure and install Cisco devices <br/>
-                                                Data and fiber infrastructure cabling <br/>
-                                                IP address management <br/>
-                                                DNS reservations <br/>
-                                                Technical documentation of Angular JS web applications <br/>
+                                                ∙ Troubleshoot customer's network connectivity <br/>
+                                                ∙ Configure and install Cisco devices <br/>
+                                                ∙ Data and fiber infrastructure cabling <br/>
+                                                ∙ IP address management <br/>
+                                                ∙ DNS reservations <br/>
+                                                ∙ Technical documentation of Angular JS web applications <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
@@ -90,6 +95,18 @@ export default props => {
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
+                                        <ExpansionPanel style={{ boxShadow: "none"}}>
+                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
+                                                <h1 className="card-sub">+ Coursework</h1>
+                                            </ExpansionPanelSummary>
+                                            <ExpansionPanelDetails className="card-text">
+                                                Computer Networks <br/>
+                                                Computer Security <br/>
+                                                Information Assurance <br/>
+                                                Internet Security <br/>
+                                            </ExpansionPanelDetails>
+                                        </ExpansionPanel>
+
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -112,11 +129,13 @@ export default props => {
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="card-text">
+                                                User Research <br/>
                                                 User Interviews <br/>
                                                 Persona Development <br/>
                                                 Information Architecture <br/>
                                                 Wireframing <br/>
                                                 Prototyping <br/>
+                                                Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
@@ -137,7 +156,20 @@ export default props => {
                                                 <h1 className="card-sub">+ Technologies</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="card-text">
+                                                HTML5/CSS3 <br/>
+                                                JavaScript <br/>
+                                                React JS <br/>
+                                            </ExpansionPanelDetails>
+                                        </ExpansionPanel>
 
+                                        <ExpansionPanel style={{ boxShadow: "none"}}>
+                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
+                                                <h1 className="card-sub">+ Coursework</h1>
+                                            </ExpansionPanelSummary>
+                                            <ExpansionPanelDetails className="card-text">
+                                                Human Computer Interaction <br/>
+                                                Software Product Design <br/>
+                                                Technical Writing and Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
                                     </Card.Text>
@@ -186,6 +218,16 @@ export default props => {
                                                 Python (beginner) <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
+
+                                        <ExpansionPanel style={{ boxShadow: "none"}}>
+                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
+                                                <h1 className="card-sub">+ Coursework</h1>
+                                            </ExpansionPanelSummary>
+                                            <ExpansionPanelDetails className="card-text">
+                                                Human Computer Interaction <br/>
+                                                Software Product Design <br/>
+                                            </ExpansionPanelDetails>
+                                        </ExpansionPanel>
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -195,6 +237,7 @@ export default props => {
             </div>
 
             <WorkExperience />
+            <ResumePage />
         </a>
     );
 }

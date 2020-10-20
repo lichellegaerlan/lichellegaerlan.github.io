@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './WorkExperience.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 
 import { ReactComponent as WorkIcon } from './work.svg';
 import { ReactComponent as SchoolIcon } from './school.svg';
@@ -10,87 +10,33 @@ export default props => {
     return(
         <a name="experience">
             <div className="work-experience">
-                <Container>
-                        <Row>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                {/* <div className="heading"> */}
-                                    <h1 className="work-title">Work Experience</h1>
-                                    <hr style={{ backgroundColor: '#C9CEE9', width: '60px', height: '0.2px' }}/>
-                                    <br/>
-                                {/* </div> */}
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} sm={12} md={4} lg={4}>
-                                <div className="date">August 2015 to May 2020</div>
-                            </Col>
-                            <br/>
-                            <Col xs={12} sm={12} md={8} lg={8}>
-                                <h1 className="work-heading">
-                                    <b>
-                                    Bachelor's of Science in Computer Science <br/>
-                                    </b>
-                                </h1>
-                                <p className="work-subtitle">
-                                    University of Nevada, Las Vegas <br/><br/>
-                                    Concentration: Information Assurance <br/>
-                                    Minor: Mathematics <br/>
-                                    Honors: Cum Laude <br/>
+                <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
+                    <h1 className="work-title"><b>Education</b></h1>
+                    <h2 className="work-sub"><b>University of Nevada, Las Vegas</b></h2>
+                    <p>
+                        <font color="#986359">AUGUST 2015 — MAY 2020</font> <br/> <br/>
+                        Bachelor's of Science, Computer Science <br/>
+                        Minor: Mathematics <br/>
+                        Concentration: Information Assurance <br/>
+                        Honors: Cum Laude <br/>
+                    </p>
+                </Jumbotron>
 
-                                    {/* Activities/Socities: Tau Beta Pi (Engineering Honor Society) Vice President, 
-                                    Society of Women's Engineers Vice President, Cybersecurity Club Workshop Trainer, 
-                                    Academic Affairs Board Member <br/>
-                                    ∙ Related Coursework: Computer Networks, Computer Security, Internet Security, Information Assurance, 
-                                    Data Structures, Algorithm Analysis, Operating Systems, Software Product Design<br/> */}
-                                    <hr style={{ backgroundColor: '#C9CEE9', width: '100%', height: '0.2px' }}/>
-                                </p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} sm={12} md={4} lg={4}>
-                                <div className="date">April 2018 to Present</div>
-                            </Col>
-                            <Col xs={12} sm={12} md={8} lg={8}>
-                                <h1 className="work-heading">
-                                    <b>Network Technician</b>
-                                </h1>
-                                <p className="work-subtitle">
-                                    UNLV Network Development and Engineering <br/><br/>
-                                    ∙ Configuring, installing, and troubleshooting Cisco switches, voice gateways, uninterruptible power supplies (UPS), &amp; wireless access points<br/>
-                                    ∙ Cabling and tracing of data/fiber infrastructure<br/>
-                                    ∙ Worked with customers to troubleshoot and resolve connectivity issues<br/>
-                                    ∙ Created IP address reservations and DNS records using Infoblox<br/>
-                                    ∙ Basic automation scripting to assist network engineers with projects<br/>
+                <Jumbotron className="work-container" style={{ backgroundColor: "#f4efee" }}>
+                    <h1 className="work-title"><b>Network Technician</b></h1>
+                    <h2 className="work-sub"><b>UNLV Network Development and Engineering</b></h2>
+                    <p>
+                        <font color="#986359">APRIL 2018 — PRESENT</font> <br/> <br/>
+                    </p>
+                </Jumbotron>
 
-                                    <hr style={{ backgroundColor: '#C9CEE9', width: '100%', height: '0.2px' }}/>
-                                </p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} sm={12} md={4} lg={4}>
-                                <div className="date">August 2018 to May 2019</div>
-                            </Col>
-                            <Col xs={12} sm={12} md={8} lg={8}>
-                                <h1 className="work-heading ug">
-                                    <b>Undergraduate Peer Mentor &amp; Teaching Assistant</b>
-                                </h1>
-                                <p className="work-subtitle">
-                                    UNLV College of Engineering <br/><br/>
-                                    ∙ Worked with first and second-year computer science students to provide tutoring
-                                    in the student’s classes, as well as first-year seminar engineering projects. <br/>
-                                    ∙ Projects included: Web application development with Google App Inventor,
-                                    mobile application development with Android Studio, and drone programming in Python.
-
-                                    <hr style={{ backgroundColor: '#C9CEE9', width: '100%', height: '0.2px' }}/>
-                                </p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col xs={12} sm={12} md={4} lg={4}>
-                                <p className="res"><b><i>see my resume</i></b></p>
-                            </Col>
-                        </Row>
-                </Container>
+                <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
+                    <h1 className="work-title"><b>Teaching Assistant and Peer Mentor</b></h1>
+                    <h2 className="work-sub"><b>UNLV College of Engineering</b></h2>
+                    <p>
+                        <font color="#986359">AUGUST 2018 — MAY 2019</font> <br/> <br/>
+                    </p>
+                </Jumbotron>
             </div>
         </a>
     );

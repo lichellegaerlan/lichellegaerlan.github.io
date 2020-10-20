@@ -1,146 +1,27 @@
 .work-experience {
-    background-color: #fff;
-    padding: 40px 40px 40px 40px;
-    height: auto;
-}
-
-.heading {
-    text-align: left;
-    line-height: 0px;
-    padding-left: 230px;
-}
-
-.date {
-    width: 100%;
-    height: 13%;
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 90%;
-    color: #fff;
-    background-color: #C9CEE9;
-    /* opacity: 0.8; */
-    letter-spacing: 1px;
-    text-align: center;
-
+    text-align: left;
+    color: #645f5b;
     /* padding: top right bottom left */
-    padding: 4px 4px 4px 4px;
+    /* padding: 0px 25% 0px 25%; */
+}
+
+.work-container {
+    padding: 5% 20% 5% 20%;
 }
 
 .work-title {
-    font-family: 'Roboto';
+    font-family: "Helvetica";
     font-size: 175%;
-    font-weight: 100;
-    color: #6b6763;
+    color: #986359;
     text-transform: uppercase;
-    letter-spacing: 7px;
-    line-height: 15px;
 }
 
-.res {
-    font-size: 110%;
-    color: #C9CEE9;
-    letter-spacing: 0px;
-    text-transform: none;
-    line-height: 15px;
-    text-align: center;
-}
-
-.work-heading {
+.work-sub {
     font-family: "Helvetica";
-    font-size: 115%;
-    font-weight: 100;
-    color: #C9CEE9;
-    /* letter-spacing: 0.5px; */
-    /* line-height: 5px; */
-    text-align: left;
-}
-
-.sub {
-    font-family: "Helvetica";
-    font-size: 130%;
-    font-weight: 100;
-    letter-spacing: 10px;
-    line-height: 30px;
-}
-
-.header {
-    font-family: 'Roboto';
-    color: #fff;
-    font-size: 120%;
-    font-weight: 100;
-    letter-spacing: 1px;
-    text-align: left;
-    padding-left: 50px;
-}
-
-.work-subtitle {
-    font-family: "Helvetica";
-    font-size: 90%;
-    font-weight: 100;
-    color: #444;
-    /* line-height: 5px; */
-    text-align: left;
-    padding-bottom: 5px;
-}
-
-.work-desc {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 90%;
-    color: #585652;
-    letter-spacing: 0.5px;
-    text-align: left;
-}
-
-.date-text {
-    font-family: 'Roboto';
-    font-weight: bolder;
-    color: #5b5853;
-    font-size: 100%;
-    letter-spacing: 1px;
-}
-
-.resume {
-    font-family: 'Roboto';
-    font-size: 80%;
-    font-weight: 700;
-    color: #fcfcfc;
-    letter-spacing: 2px;
-    background-color: #a2c5be; 
-    border-radius: 3px;
-}
-
-.resume:hover {
-    color: #fff;
-    background-color: #bdd6d1;
-    font-weight: 900;
-}
-
-@media screen and (min-width: 300px) and (max-width: 1200px){
-    .heading {
-        padding-left: 22px;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 500px){
-    .work-title {
-        font-size: 110%;
-    }
-
-    .work-heading {
-        font-size: 85%;
-    }
-
-    .work-subtitle {
-        font-size: 70%;
-    }
-
-    .date {
-        font-size: 60%;
-        height: 90%;
-    }
-
-    .ug {
-        font-size: 70%;
-    }
+    font-size: 125%;
+    color: #986359;
+    text-transform: uppercase;
 }
