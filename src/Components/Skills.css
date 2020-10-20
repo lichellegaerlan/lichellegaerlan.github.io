@@ -2,12 +2,9 @@
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 175%;
-    color: #8f8983;
-    text-align: center;
+    color: #645f5b;
+    text-align: left;
     background-color: #fff;
-    /* background-color: #ccddce; */
-    /* background-color: #717e7a; */
-    /* height: 100vh; */
 
     /* padding: top right bottom left */
     padding: 40px 40px 40px 40px;
@@ -64,48 +61,36 @@
     background-color: #fff;
 }
 
-.heading {
-    text-align: left;
-    line-height: 0px;
-    /* padding-left: 10px; */
-}
-
-.skills-heading {
-    font-family: 'Roboto';
-    font-size: 115%;
-    font-weight: 100;
-    color: #6b6763;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    line-height: 12px;
-}
-
-.sub {
-    font-family: 'Roboto';
-    font-size: 50%;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 1px;
-}
-
 .skills-card {
     width: 90%;
     text-align: center;
+    padding: 2% 2% 2% 2%;
     margin: 10px 10px 10px 10px;
     box-shadow: 0 4px 8px 0 rgba(232, 230, 228, 0.3), 0 6px 20px 0 rgba(232, 230, 228, 0.3);
 }
 
-.card-dash {
-    font-family: "Helvetica";
-    font-size: 50%;
+.collapse {
+    background-color: #986359;
 }
 
-.skills-header {
-    font-family: "Helvetica";
+.card-title {
+    font-family: 'Muli';
     font-weight: 100;
-    font-size: 100%;
-    color: #CEB9B5;
+    font-size: 90%;
+    color: #986359;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: #fff;
+}
+
+.card-sub {
+    font-family: 'Muli';
+    font-weight: 600;
+    font-size: 85%;
+    color: #986359;
+    text-transform: uppercase;
 }
 
 .card-text {
@@ -113,6 +98,8 @@
     font-weight: 100;
     font-size: 60%;
     letter-spacing: 0.5px;
+    margin: 0 0 0 0;
+    text-align: left;
 }
 
 @media screen and (min-width: 300px) and (max-width: 1200px){
