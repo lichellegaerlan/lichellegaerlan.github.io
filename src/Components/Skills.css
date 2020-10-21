@@ -11,7 +11,7 @@
 }
 
 .contact-name {
-    font-family: 'Muli';
+    font-family: "Helvetica";
     font-weight: 100;
     text-transform: uppercase;
     color: #986359;
@@ -86,7 +86,7 @@
 }
 
 .card-title {
-    font-family: 'Muli';
+    font-family: "Helvetica";
     font-weight: 100;
     font-size: 90%;
     color: #986359;
@@ -109,6 +109,15 @@
     font-family: "Helvetica";
     font-weight: 100;
     font-size: 60%;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 0;
+    text-align: left;
+}
+
+.text-desc {
+    font-family: "Helvetica";
+    font-weight: 100;
+    font-size: 70%;
     letter-spacing: 0.5px;
     margin: 0 0 0 0;
     text-align: left;

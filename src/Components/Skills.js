@@ -2,7 +2,6 @@ import React from 'react';
 
 import './Skills.css';
 import WorkExperience from './WorkExperience';
-import ResumePage from './Resume';
 
 import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
@@ -50,7 +49,7 @@ export default props => {
                                 <Card.Body>
                                     <Card.Text>
                                         <h1 className="card-title">Computer Networking</h1>
-                                        {/* <p className="card-text">
+                                        {/* <p className="text-desc">
                                             I am proficient with Cisco IOS, and have working experience
                                             configuring, installing, and troubleshooting Cisco devices. I also
                                             have extensive experience with data/fiber cabling, IP address management, 
@@ -62,33 +61,29 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff", justifyContent: "center" }}>
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
-                                                ∙ Troubleshoot customer's network connectivity <br/>
-                                                ∙ Configure and install Cisco devices <br/>
-                                                ∙ Data and fiber infrastructure cabling <br/>
-                                                ∙ IP address management <br/>
-                                                ∙ DNS reservations <br/>
-                                                ∙ Technical documentation of Angular JS web applications <br/>
+                                            <ExpansionPanelDetails className="text-desc">
+                                                • Troubleshoot customer's network connectivity issues<br/>
+                                                • Configure and install Cisco switches, voice gateways, access points, and UPS <br/>
+                                                • Data and fiber infrastructure cabling <br/>
+                                                • IP address management <br/>
+                                                • DNS reservations <br/>
+                                                • Technical documentation of Angular JS web applications <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
                                         <ExpansionPanel style={{ boxShadow: "none"}}>
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Tools</h1>
+                                                <h1 className="card-sub">+ Tools / Technologies</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
+                                                Tools:<br/>
                                                 Cisco Prime <br/>
                                                 FootPrints Ticketing System <br/>
                                                 Infoblox IP Management System <br/>
-                                                Wireshark <br/>
-                                            </ExpansionPanelDetails>
-                                        </ExpansionPanel>
+                                                Git/Github <br/>
+                                                Wireshark <br/><br/>
 
-                                        <ExpansionPanel style={{ boxShadow: "none"}}>
-                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Technologies</h1>
-                                            </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                                Technologies: <br/>
                                                 Cisco IOS <br/>
                                                 Juniper IOS <br/>
                                                 Angular JS <br/>
@@ -99,7 +94,7 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
                                                 <h1 className="card-sub">+ Coursework</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
                                                 Computer Networks <br/>
                                                 Computer Security <br/>
                                                 Information Assurance <br/>
@@ -116,7 +111,7 @@ export default props => {
                                 <Card.Body>
                                     <Card.Text>
                                         <h1 className="card-title">UI/UX Design</h1>
-                                        {/* <p className="card-text">
+                                        {/* <p className="text-desc">
                                             I believe that well designed software products stem from
                                             the UX industry. I love designing elegant, engaging, and
                                             efficient product experiences alongside a beautiful user interface.
@@ -128,34 +123,29 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff", justifyContent: "center" }}>
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
-                                                User Research <br/>
-                                                User Interviews <br/>
-                                                Persona Development <br/>
-                                                Information Architecture <br/>
-                                                Wireframing <br/>
-                                                Prototyping <br/>
-                                                Usability Testing <br/>
+                                            <ExpansionPanelDetails className="text-desc">
+                                                • User Research <br/>
+                                                • User Interviews <br/>
+                                                • Persona Development <br/>
+                                                • Information Architecture <br/>
+                                                • Wireframing <br/>
+                                                • Prototyping <br/>
+                                                • Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
                                         <ExpansionPanel style={{ boxShadow: "none"}}>
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Tools</h1>
+                                                <h1 className="card-sub">+ Tools / Technologies</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
+                                                Tools: <br/>
                                                 Paper and Pencil <br/>
                                                 Procreate <br/>
                                                 Figma <br/>
-                                                Invision Studio (beginner) <br/>
-                                            </ExpansionPanelDetails>
-                                        </ExpansionPanel>
+                                                Invision Studio (beginner) <br/><br/>
 
-                                        <ExpansionPanel style={{ boxShadow: "none"}}>
-                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Technologies</h1>
-                                            </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                                Technologies: <br/>
                                                 HTML5/CSS3 <br/>
                                                 JavaScript <br/>
                                                 React JS <br/>
@@ -166,7 +156,7 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
                                                 <h1 className="card-sub">+ Coursework</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
                                                 Human Computer Interaction <br/>
                                                 Software Product Design <br/>
                                                 Technical Writing and Usability Testing <br/>
@@ -180,8 +170,8 @@ export default props => {
                                 <Card.Img variant="top" src={Web} />
                                 <Card.Body>
                                     <Card.Text>
-                                        <h1 className="card-title">Responsive Web Design</h1>
-                                        {/* <p className="card-text">
+                                        <h1 className="card-title">Web Development</h1>
+                                        {/* <p className="text-desc">
                                             Using ReactJS and HTML/CSS, I have found that it is pertinent to implement
                                             responsive web features that will allow the website to be mobile-friendly, flexible,
                                             and improve the overall user experience to increase visistor traffic.
@@ -191,24 +181,29 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff", justifyContent: "center" }}>
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
+                                                • Create responsive frontend for desktops, tablets, and mobile devices <br/>
+                                                • Create RESTful API <br/>
+                                                • Knowledge of software design cycle models <br/>
+                                                • Ability to create UML <br/>
+                                                • Experience in agile scrum development environment <br/>
+                                                • User Research <br/>
+                                                • Prototyping <br/>
+                                                • Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
                                         <ExpansionPanel style={{ boxShadow: "none"}}>
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Tools</h1>
+                                                <h1 className="card-sub">+ Tools / Technolgoies</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
-                                                Visual Studio Code <br/>
-                                            </ExpansionPanelDetails>
-                                        </ExpansionPanel>
-
-                                        <ExpansionPanel style={{ boxShadow: "none"}}>
-                                            <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
-                                                <h1 className="card-sub">+ Technologies</h1>
-                                            </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
+                                                {/* Visual Studio Code <br/> */}
+                                                Tools: <br/>
+                                                Git/Github <br/>
+                                                Visual Studio Code <br/><br/>
+                                                
+                                                Technologies: <br/>
                                                 HTML5/CSS3 <br/>
                                                 JavaScript <br/>
                                                 React JS <br/>
@@ -223,7 +218,7 @@ export default props => {
                                             <ExpansionPanelSummary className="card-sub" style={{ height: "0px", borderColor: "#ffffff" }}>
                                                 <h1 className="card-sub">+ Coursework</h1>
                                             </ExpansionPanelSummary>
-                                            <ExpansionPanelDetails className="card-text">
+                                            <ExpansionPanelDetails className="text-desc">
                                                 Human Computer Interaction <br/>
                                                 Software Product Design <br/>
                                             </ExpansionPanelDetails>
@@ -237,7 +232,6 @@ export default props => {
             </div>
 
             <WorkExperience />
-            <ResumePage />
         </a>
     );
 }
