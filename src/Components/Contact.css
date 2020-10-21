@@ -1,0 +1,33 @@
+.contact-page {
+    /* background: #794f47; */
+    height: 50vh;
+    padding-top: 7%;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.n1 {
+    font-family: "Oxygen";
+    font-weight: 100;
+    color: #794f47;
+    letter-spacing: 2px;
+}
+
+.n2 {
+    font-family: "Oxygen";
+    font-weight: 100;
+    color: #794f47;
+    font-size: 115%;
+}
+
+.e1 {
+    color: #794f47;
+    text-decoration: none;
+}
+
+.e1:hover {
+    color: #794f47;
+    text-decoration: none;
+    font-style: italic;
+    /* font-weight: 600; */
+}

@@ -9,7 +9,7 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import WorkExperience from './Components/WorkExperience';
 import Portfolio from './Components/Portfolio';
-import Resume from './Components/Resume';
+import Contact from './Components/Contact';
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ function App() {
 
           <Route path="/portfolio" component={Portfolio} />
 
-          {/* <Route path="/resume" component={Resume} /> */}
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     </Router>
