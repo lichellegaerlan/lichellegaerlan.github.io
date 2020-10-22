@@ -1,0 +1,37 @@
+.contact-page {
+    background: #794f47;
+    height: 70vh;
+    padding-top: 7%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.n1 {
+    font-family: "Oxygen";
+    font-weight: 100;
+    color: #e0d0cd;
+    letter-spacing: 2px;
+}
+
+.n2 {
+    font-family: "Oxygen";
+    font-weight: 100;
+    color: #e0d0cd;
+    font-size: 115%;
+}
+
+.contact-text {
+    color: #222;
+}
+
+.e1 {
+    color: #e0d0cd;
+    text-decoration: none;
+}
+
+.e1:hover {
+    color: #e0d0cd;
+    text-decoration: none;
+    font-style: italic;
+    /* font-weight: 600; */
+}

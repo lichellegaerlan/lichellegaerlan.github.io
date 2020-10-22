@@ -1,6 +1,6 @@
 .about-pg {
     height: 100vh;
-    padding-top: 10%;
+    padding-top: 6%;
     margin-bottom: 5%;
 }
 
@@ -22,12 +22,12 @@
 }
 
 .about-links {
-    color: #794f47;
+    color: #B48079;
     text-decoration: none;
 }
 
 .about-links:hover {
-    color: #794f47;
+    color: #B48079;
     font-style: italic;
     text-decoration: none;
 }
