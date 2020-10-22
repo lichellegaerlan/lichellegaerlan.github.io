@@ -1,36 +1,32 @@
-.contact-page {
-    background: #794f47;
-    height: 70vh;
+.contact-page-light {
+    /* background: #794f47; */
+    height: 50vh;
     padding-top: 7%;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     text-align: left;
 }
 
-.n1 {
+.n1-light {
     font-family: "Oxygen";
     font-weight: 100;
-    color: #e0d0cd;
+    color: #794f47;
     letter-spacing: 2px;
 }
 
-.n2 {
+.n2-light {
     font-family: "Oxygen";
     font-weight: 100;
-    color: #e0d0cd;
+    color: #794f47;
     font-size: 115%;
 }
 
-.contact-text {
-    color: #222;
-}
-
-.e1 {
-    color: #e0d0cd;
+.e1-light {
+    color: #794f47;
     text-decoration: none;
 }
 
-.e1:hover {
-    color: #e0d0cd;
+.e1-light:hover {
+    color: #794f47;
     text-decoration: none;
     font-style: italic;
     /* font-weight: 600; */

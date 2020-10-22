@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './WorkExperience.css';
+import DarkContact from './DarkContact.js';
+
 import { Jumbotron } from 'react-bootstrap';
 
 import { ReactComponent as WorkIcon } from './work.svg';
@@ -8,7 +10,7 @@ import { ReactComponent as SchoolIcon } from './school.svg';
 
 export default props => {
     return(
-        <a name="experience">
+        <div>
             <div className="work-experience">
                 <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
                     <h1 className="work-title"><b>Education</b></h1>
@@ -50,6 +52,8 @@ export default props => {
                     </p>
                 </Jumbotron>
             </div>
-        </a>
+
+            <DarkContact />
+        </div>
     );
 }

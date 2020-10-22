@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import Contact from './ContactDark.js';
+import DarkContact from './DarkContact.js';
 
 import './About.css';
 // import AboutPic from './about.png';
@@ -83,7 +83,7 @@ export default props => {
                 </Container>
             </div>
 
-            <Contact />
+            <DarkContact />
         </div>
     );
 }

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Landing from './landing.png';
-import Contact from './Contact';
+import LightContact from './LightContact.js';
 
 export default props => {
     return(
@@ -32,7 +32,7 @@ export default props => {
                 </Container>
             </div>
             
-            <Contact />
+            <LightContact />
         </div>
     );
 }
