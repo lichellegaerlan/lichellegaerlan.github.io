@@ -21,7 +21,7 @@ export default props => {
                         </p>
                         <br/><br/>
 
-                        <p>
+                        <p className="contact-text-dark">
                             <a className="e1-dark" href="https://github.com/lichellegaerlan">Github</a> / <a className="e1-dark" href="https://www.linkedin.com/in/lichellemaegaerlan">LinkedIn</a> / <a className="e1-dark" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
                         </p>
                     </Col>
