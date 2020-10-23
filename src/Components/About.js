@@ -8,10 +8,6 @@ import DarkContact from './DarkContact.js';
 import './About.css';
 // import AboutPic from './about.png';
 import AboutPic from './about_lighter.png';
-import Devices from './devices.svg';
-import OS from './os.svg';
-import Other from './other.svg';
-import Exit from './exit.svg';
 
 import { Dialog, Toolbar } from '@material-ui/core';
 
@@ -52,9 +48,8 @@ export default function About() {
                                     My passion for technology and design began when I was a kid
                                     creating HTML/CSS layouts on MySpace and Tumblr for fun. <br/><br/>
     
-                                    I later decided to pursue a degree in Computer Science from the University of Nevada, Las Vegas
-                                    because I truly enjoyed spending my free-time creating beautiful, functional aesthetics and experiences during
-                                    my early web development days. In my last semester of university, I took a Software Product Design course, where I 
+                                    I later decided to pursue a degree in Computer Science because I truly enjoyed spending my free-time creating beautiful, functional aesthetics and experiences during
+                                    my early web development days. During my last semester, I took a Software Product Design course, where I 
                                     gained experience in conducting user research, writing competitive analysis reports, creating prototypes, and improving my responsive frontend development skills. This course
                                     truly made me fall in love with combining design and code. <br/><br/>
     
@@ -65,11 +60,34 @@ export default function About() {
                                     <button className="process-button" onClick={handleClickOpen}>My Process</button>
                                     <Dialog fullScreen open={open} onClose={handleClose}>
                                         <Toolbar style={{ flexDirection:'row-reverse' }}>
-                                            <img src={Exit} onClick={handleClose} />
+                                            <i className="mat-icons close-icon" onClick={handleClose}>close</i>
+                                            {/* <img src={Exit} onClick={handleClose} /> */}
                                         </Toolbar>
                                         
                                         <div className="process-page">
-                                            <h1 className="about-headers" style={{ textTransform: "uppercase" }}>My Process</h1> <br/>
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <h1 className="about-headers" style={{ textTransform: "uppercase" }}>My Workflow</h1> <br/>
+                                            </Col>
+                                            
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <i className="mat-icons process-icons">person_pin</i><span className="tab"><h2 className="process-headers">Empathize and Identify</h2></span> <br/>
+
+                                            </Col> 
+
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <i className="mat-icons process-icons">location_searching</i><span className="tab"><h2 className="process-headers">Define and Analyze</h2></span> <br/>
+
+                                            </Col> 
+
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <i className="mat-icons process-icons">create</i><span className="tab"><h2 className="process-headers">Ideate and Design</h2></span> <br/>
+                                                
+                                            </Col> 
+
+                                            <Col xs={12} sm={12} md={12} lg={12}>
+                                                <i className="mat-icons process-icons">build</i><span className="tab"><h2 className="process-headers">Implement and Test</h2></span> <br/>
+
+                                            </Col> 
                                         </div>
                                     </Dialog>
 
@@ -99,9 +117,9 @@ export default function About() {
     
                                 <h2 className="about-headers">Tech Usage</h2>
                                 <p className="about-text">
-                                <img src={Devices} height="11px" width="11px" /><span className="tab">Devices: Macbook Pro, iPad Pro, iPhone</span> <br/>
-                                <img src={OS} height="11px" width="11px" /><span className="tab">Operating Systems: Linux, Mac OS X, Windows</span> <br/>
-                                <img src={Other} height="11px" width="11px" /><span className="tab">Other: IT, Computer Networks</span> <br/>
+                                    <i className="mat-icons">devices</i><span className="tab">Devices: Macbook Pro, iPad Pro, iPhone</span> <br/>
+                                    <i className="mat-icons">developer_mode</i><span className="tab">Operating Systems: Linux, Mac OS X, Windows</span> <br/>
+                                    <i className="mat-icons">cloud</i><span className="tab">Other: IT, Computer Networks</span> <br/>
                                 </p>
                             </Col>
                         </Row>

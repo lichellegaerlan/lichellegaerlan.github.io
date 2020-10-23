@@ -6,6 +6,40 @@
     padding-right: 0px;
 }
 
+.mat-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #B48079;
+    
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.close-icon {
+    font-size: 24px;
+}
+
+.process-icons {
+    font-size: 13px;
+}
+
 /* .col-styles {
     padding-left: 5%;
 } */
@@ -81,13 +115,23 @@
 
 .tab { 
     display: inline-block; 
-    margin-left: 20px; 
+    margin-left: 10px; 
+}
+
+.process-page {
+    padding: 1%;
 }
 
 .exit-button:hover {
     background: #fff;
 }
 
-.process-page {
-    padding: 2%;
+.process-headers {
+    font-family: "Oxygen";
+    font-weight: 100;
+    color: #794f47;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 100%;
+    /* text-transform: uppercase; */
 }

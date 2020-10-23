@@ -5,9 +5,6 @@ import DarkContact from './DarkContact.js';
 
 import { Jumbotron } from 'react-bootstrap';
 
-import { ReactComponent as WorkIcon } from './work.svg';
-import { ReactComponent as SchoolIcon } from './school.svg';
-
 export default props => {
     return(
         <div>
