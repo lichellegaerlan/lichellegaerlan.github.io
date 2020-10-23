@@ -2,6 +2,8 @@
     height: 100vh;
     padding-top: 6%;
     margin-bottom: 5%;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 /* .col-styles {
@@ -12,9 +14,7 @@
     /* width to height ratio is 83%, as in height = 100%, width = 83% */
     width: 290px;
     height: 350px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
+    text-align: left;
 }
 
 .about-links-container {
@@ -82,4 +82,12 @@
 .tab { 
     display: inline-block; 
     margin-left: 20px; 
+}
+
+.exit-button:hover {
+    background: #fff;
+}
+
+.process-page {
+    padding: 2%;
 }

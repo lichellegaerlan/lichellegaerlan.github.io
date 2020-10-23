@@ -1,8 +1,11 @@
 .contact-page-dark {
     background: #794f47;
     height: 70vh;
+    width: 100vw;
     padding-top: 7%;
+    padding-right: 0px;
     margin-bottom: 0px;
+    margin-right: 0px;
     text-align: left;
 }
 
@@ -21,7 +24,7 @@
 }
 
 .contact-text-dark {
-    color: #222;
+    color: #d9bfbc;
 }
 
 .e1-dark {
