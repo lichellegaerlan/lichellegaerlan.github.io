@@ -22,7 +22,7 @@ export default props => {
                         <br/><br/>
 
                         <p className="contact-text-dark">
-                            <a className="e1-dark" href="https://github.com/lichellegaerlan">Github</a> / <a className="e1-dark" href="https://www.linkedin.com/in/lichellemaegaerlan">LinkedIn</a> / <a className="e1-dark" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
+                            <a className="e1-dark" href="https://github.com/lichellegaerlan" target="_blank">Github</a> / <a className="e1-dark" href="https://www.linkedin.com/in/lichellemaegaerlan" target="_blank">LinkedIn</a> / <a className="e1-dark" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
                         </p>
                     </Col>
                 </Row>

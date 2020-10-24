@@ -17,7 +17,7 @@
 }
 
 .n2-dark {
-    font-family: "Oxygen";
+    font-family: "Helvetica";
     font-weight: 100;
     color: #e0d0cd;
     font-size: 115%;
@@ -28,6 +28,7 @@
 }
 
 .e1-dark {
+    font-family: "Oxygen";
     color: #e0d0cd;
     text-decoration: none;
 }
