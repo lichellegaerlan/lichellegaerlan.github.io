@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import DarkContact from './DarkContact.js';
 
 import './About.css';
-// import AboutPic from './about.png';
 import AboutPic from './about_lighter.png';
 
 import { Dialog, Toolbar } from '@material-ui/core';
