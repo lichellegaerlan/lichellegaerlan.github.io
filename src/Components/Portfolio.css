@@ -22,11 +22,11 @@
 }
 
 .project-title {
-    font-family: "Oxygen";
+    font-family: "Helvetica";
     font-weight: 100;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 200%;
+    letter-spacing: 2px;
+    font-size: 150%;
 }
 
 .project-description {
@@ -56,6 +56,14 @@
     background-color: #fff;
 }
 
+.fade-in-text {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
 .portfolio-preview {
     height: 100vh;
     text-align: center;
@@ -64,4 +72,53 @@
 .preview-container {
     padding-top: 10%;
     text-align: center;
+}
+
+.parkinn-page {
+    /* padding: top right bottom left */
+    padding: 0 2% 2% 5%;
+}
+
+.close-button {
+    font-family: "Helvetica";
+    font-weight: 500;
+    font-size: 85%;
+    /* color: #fff; */
+    /* background-color: #caa6a1; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-style: none;
+    border-radius: 3px;
+    /* padding: top right bottom left */
+    padding: 6px 10px 5px 10px;
+}
+
+.parkinn-close-button {
+    color: #fff;
+    background-color: #73a9cf;
+}
+
+.parkinn-close-button:hover {
+    color: #73a9cf;
+    background-color: #fff;
+}
+
+.parkinn-icons {
+    color: #73a9cf;
+    font-size: 13px;
+}
+
+
+.parkinn-header {
+    font-family: "Helvetica";
+    font-weight: 100;
+    color: #73a9cf;
+    font-size: 125%;
+}
+
+.parkinn-text {
+    font-family: "Helvetica";
+    font-weight: 100; 
+    color: #777;
+    font-size: 100%;
 }

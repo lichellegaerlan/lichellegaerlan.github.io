@@ -62,12 +62,13 @@ export default props => {
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="text-desc">
-                                                • Troubleshoot customer's network connectivity issues<br/>
-                                                • Configure and install Cisco switches, voice gateways, access points, and UPS <br/>
-                                                • Data and fiber infrastructure cabling <br/>
-                                                • IP address management <br/>
-                                                • DNS reservations <br/>
-                                                • Technical documentation of Angular JS web applications <br/>
+                                                Troubleshoot customer's network connectivity issues<br/>
+                                                Configure and install Cisco switches, voice gateways, access points, and UPS <br/>
+                                                Data and fiber infrastructure cabling <br/>
+                                                IP address management <br/>
+                                                DNS reservations <br/>
+                                                Technical documentation of Angular JS web applications <br/>
+                                                Basic automation scripting using Python <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
@@ -124,13 +125,13 @@ export default props => {
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="text-desc">
-                                                • User Research <br/>
-                                                • User Interviews <br/>
-                                                • Persona Development <br/>
-                                                • Information Architecture <br/>
-                                                • Wireframing <br/>
-                                                • Prototyping <br/>
-                                                • Usability Testing <br/>
+                                                User Research <br/>
+                                                User Interviews <br/>
+                                                Persona Development <br/>
+                                                Information Architecture <br/>
+                                                Wireframing <br/>
+                                                Prototyping <br/>
+                                                Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 
@@ -182,14 +183,14 @@ export default props => {
                                                 <h1 className="card-sub">+ Skills</h1>
                                             </ExpansionPanelSummary>
                                             <ExpansionPanelDetails className="text-desc">
-                                                • Create responsive frontend for desktops, tablets, and mobile devices <br/>
-                                                • Create RESTful API <br/>
-                                                • Knowledge of software design cycle models <br/>
-                                                • Ability to create UML <br/>
-                                                • Experience in agile scrum development environment <br/>
-                                                • User Research <br/>
-                                                • Prototyping <br/>
-                                                • Usability Testing <br/>
+                                                Create responsive frontend for desktops, tablets, and mobile devices <br/>
+                                                Create RESTful API <br/>
+                                                Knowledge of software design cycle models <br/>
+                                                Ability to create UML <br/>
+                                                Experience in agile scrum development environment <br/>
+                                                User Research <br/>
+                                                Prototyping <br/>
+                                                Usability Testing <br/>
                                             </ExpansionPanelDetails>
                                         </ExpansionPanel>
 

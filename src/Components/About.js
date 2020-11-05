@@ -146,7 +146,7 @@ export default function About() {
                                 <h2 className="about-headers">Tech Usage</h2>
                                 <p className="about-text">
                                     <i className="mat-icons">devices</i><span className="tab">Devices: Macbook Pro, iPad Pro, iPhone</span> <br/>
-                                    <i className="mat-icons">developer_mode</i><span className="tab">Operating Systems: Linux, Mac OS X, Windows</span> <br/>
+                                    <i className="mat-icons">developer_mode</i><span className="tab">Operating Systems: Linux, Mac OS, Windows</span> <br/>
                                     <i className="mat-icons">cloud</i><span className="tab">Other: IT, Computer Networks</span> <br/>
                                 </p>
                             </Col>
@@ -155,9 +155,9 @@ export default function About() {
                     </Container>
                 </div>
                 
-                <div style={{ width: "100vw" }}>
+                {/* <div style={{ width: "100vw" }}> */}
                     <DarkContact />
-                </div>
+                {/* </div> */}
             </div>
         );
     // }
