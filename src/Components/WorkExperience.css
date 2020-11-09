@@ -25,3 +25,46 @@
     color: #986359;
     text-transform: uppercase;
 }
+
+/* fucking iphone 5s */
+@media only screen and (max-width: 325px) {
+    .work-title {
+        padding-top: 2%;
+        font-size: 110%
+    }
+
+    .work-sub {
+        font-size: 100%;
+    }
+}
+  
+/* phones */
+@media only screen and (max-width: 600px) {
+    .work-title {
+        padding-top: 2%;
+        font-size: 110%
+    }
+
+    .work-sub {
+        font-size: 100%;
+    }
+}
+  
+/* tablet in portrait mode / regular ipad */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+
+}
+  
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+  
+/* very big desktops */
+@media only screen and (min-width: 1500px) {
+
+}
+  
+@media only screen and (min-width: 1800px) {
+
+}

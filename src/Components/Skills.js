@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Skills.css';
 import WorkExperience from './WorkExperience';
+import DarkContact from './DarkContact';
 
 import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
 
@@ -233,6 +234,7 @@ export default props => {
             </div>
 
             <WorkExperience />
+            <DarkContact />
         </a>
     );
 }

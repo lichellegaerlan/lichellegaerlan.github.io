@@ -113,16 +113,72 @@
   }
   
   .home-links {
-    font-size: 20%;
+    font-size: 5%;
+    padding-right: 0px;
   }
 }
 
+/* phones */
 @media only screen and (max-width: 600px) {
   .landing {
     padding-top: 35%;
   }
 
+  .landing-image {
+    width: 241px; 
+    height: 291px;
+  }
+
+  .home-link-container {
+    margin-top: 10%;
+  }
+
   .home-links {
     font-size: 50%;
+  }
+}
+
+/* tablet in portrait mode */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .landing {
+    padding-top: 30%;
+  }
+
+  .home-link-container {
+    padding-top: 3%;
+  }
+}
+
+/* large laptops / desktops */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .landing {
+    padding-top: 35%;
+  }
+}
+
+/* extra large laptops / desktops */
+/* hm this is probably what i'm using rn */
+/* @media only screen and (min-width: 1200px) {
+} */
+
+/* very big desktops */
+@media only screen and (min-width: 1500px) {
+  .landing {
+    padding-top: 10%;
+  }
+
+  .home-links {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .landing {
+    padding-top: 10%;
+  }
+
+  .landing-image {
+    width: 410px;
+    height: 495px;
   }
 }

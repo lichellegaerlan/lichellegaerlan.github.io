@@ -123,14 +123,48 @@
     text-align: left;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1200px){
-    .skills {
-        height: 100%;
+/* fucking iphone 5s */
+@media only screen and (max-width: 325px) {
+    .contact-name {
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+
+    .contact-info {
+        font-size: 60%;
     }
 }
-
-@media screen and (min-width: 300px) and (max-width: 500px){
-    .skills-heading {
-        font-size: 85%;
+  
+/* phones */
+@media only screen and (max-width: 600px) {
+    .skills {
+        /* padding: top right bottom left */
+        padding: 25% 2% 2% 2%;
     }
+
+    .contact-name {
+        letter-spacing: 1px;
+    }
+}
+  
+/* tablet in portrait mode / regular ipad */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .contact-name {
+        font-size: 80%;
+        letter-spacing: 1px;
+    }
+}
+  
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+  
+/* very big desktops */
+@media only screen and (min-width: 1500px) {
+
+}
+  
+@media only screen and (min-width: 1800px) {
+
 }

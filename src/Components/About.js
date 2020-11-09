@@ -1,12 +1,11 @@
 import React from 'react';
 
-import { Container, Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-
-import DarkContact from './DarkContact.js';
-
 import './About.css';
 import AboutPic from './about_lighter.png';
+import DarkContact from './DarkContact';
+
+import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import { Dialog, Toolbar } from '@material-ui/core';
 
@@ -32,13 +31,7 @@ export default function About() {
                                 <br/>
     
                                 <img src={AboutPic} className="about-polaroid" />
-                                <br/><br/>
-    
-                                {/* <p className="about-links-container">
-                                    <a href="https://www.github.com/lichellegaerlan" className="about-links" target="_blank">Github</a> / <a href="https://www.linkedin.com/lichellemaegaerlan" className="about-links" target="_blank">LinkedIn</a> / <a className="about-links" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
-                                </p> */}
-                                {/* <button className="portfolio-button">My Portfolio</button> */}
-                                <br/>
+                                <br/><br/><br/>
                             </Col>
     
                             <Col xs={12} sm={12} md={12} lg={4} className="col-styles" style={{ paddingRight: "20px"}}>
@@ -114,6 +107,7 @@ export default function About() {
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <button className="process-close-button" onClick={handleClose}>Close</button>
                                             </Col>
+                                            <br/>
                                         </div>
                                     </Dialog>
 
@@ -121,6 +115,7 @@ export default function About() {
                                     {/* <span className="tab"><td onClick={()=> window.open("/portfolio", "_blank")}><button className="process-button">My Portfolio</button></td></span> */}
 
                                     <button className="portfolio-button"><Link to="/portfolio" className="process-link" target="_blank">My Portfolio</Link></button>
+                                    <br/><br/>
                                 </p>
                             </Col>
     
@@ -149,15 +144,15 @@ export default function About() {
                                     <i className="mat-icons">developer_mode</i><span className="tab">Operating Systems: Linux, Mac OS, Windows</span> <br/>
                                     <i className="mat-icons">cloud</i><span className="tab">Other: IT, Computer Networks</span> <br/>
                                 </p>
+                                <br/>
                             </Col>
                         </Row>
-    
                     </Container>
                 </div>
-                
-                {/* <div style={{ width: "100vw" }}> */}
-                    <DarkContact />
-                {/* </div> */}
+
+                <div className="sticky-contact">
+                    <DarkContact/>
+                </div>
             </div>
         );
     // }

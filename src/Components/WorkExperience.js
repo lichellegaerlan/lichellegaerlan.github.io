@@ -50,7 +50,7 @@ export default props => {
                 </Jumbotron>
             </div>
 
-            <DarkContact />
+            {/* <DarkContact /> */}
         </div>
     );
 }
