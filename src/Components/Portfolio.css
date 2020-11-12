@@ -122,3 +122,45 @@
     color: #777;
     font-size: 100%;
 }
+
+/* fucking iphone 5s */
+/* @media only screen and (max-width: 325px) {
+    .portfolio-pics {
+        width: ; 
+        height: ; 
+    }
+} */
+  
+/* phones */
+@media only screen and (max-width: 600px) {
+    .portfolio {
+        padding-top: 25%;
+    }
+
+    .project-title {
+        display: none;
+    }
+
+    .project-description {
+        font-size: 90%;
+        text-align: center;
+    }
+
+    .project-button {
+        text-align: center;
+    }
+
+    .parkinn {
+        text-align: center;
+    }
+
+    .fade-in-text {
+        text-align: center;
+    }
+
+    .portfolio-pics {
+        height: 170px;
+        width: 260px;
+        text-align: center;
+    }
+}
