@@ -163,4 +163,16 @@
         width: 260px;
         text-align: center;
     }
+
+    .parkinn-page {
+        padding-top: 5%;
+    }
+
+    .parkinn-header {
+        font-size: 100%;
+    }
+
+    .parkinn-text {
+        font-size: 80%;
+    }
 }
