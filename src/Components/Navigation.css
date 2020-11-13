@@ -38,6 +38,7 @@
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     color: #999;
+    outline: none;
 }
   
 .bm-morph-shape {
@@ -46,6 +47,7 @@
   
 .bm-item-list {
     color: #bdc3c7;
+    outline: none; 
 }
   
 .bm-overlay {

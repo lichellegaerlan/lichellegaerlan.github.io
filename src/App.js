@@ -9,7 +9,7 @@ import Skills from './Components/Skills';
 import Portfolio from './Components/Portfolio';
 import LightContact from './Components/LightContact.js';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   const target = React.createRef();
