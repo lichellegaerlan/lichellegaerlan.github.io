@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './WorkExperience.css';
-import DarkContact from './DarkContact.js';
 
 import { Jumbotron } from 'react-bootstrap';
 
@@ -21,7 +20,7 @@ export default props => {
                     </p>
                 </Jumbotron>
 
-                <Jumbotron className="work-container" style={{ backgroundColor: "#f4efee" }}>
+                <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
                     <h1 className="work-title">Network Technician</h1>
                     <h2 className="work-sub">UNLV Network Development and Engineering</h2>
                     <p>

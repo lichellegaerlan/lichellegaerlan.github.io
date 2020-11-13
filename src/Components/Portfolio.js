@@ -26,7 +26,7 @@ export default function Portfolio() {
                 <Container>
                     <Row>
                         <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
-                            <img src={ParkInn} className="portfolio-pics" onClick={handleClickOpen} />
+                            <img src={ParkInn} className="portfolio-pics" onClick={handleClickOpen} alt="parkinn-portfolio" />
                             <Dialog fullScreen open={open} onClose={handleClose}>
                                 <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
                                     <i className="mat-icons close-icon parkinn" onClick={handleClose}>close</i>
@@ -73,7 +73,7 @@ export default function Portfolio() {
 
                                                         The application was developed in Spring 2020 by a group of students and I during our Software Product Design course.<br/><br/>
 
-                                                        <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Source Code</a>
+                                                        <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }}>View Source Code</a>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -155,7 +155,7 @@ export default function Portfolio() {
 
                                                         My team and I worked incredibly hard to develop a beautiful, efficient, and useful product. Upon final presentation, we 
                                                         had were able to host both the mobile and web applications. After presenting, we had received a lot of positive feedback. 
-                                                        Due to costs, we could not keep our server live, but the source code can be found <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>on my Github</a>.
+                                                        Due to costs, we could not keep our server live, but the source code can be found <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }}>on my Github</a>.
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>

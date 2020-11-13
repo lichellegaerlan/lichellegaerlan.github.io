@@ -12,7 +12,6 @@ import LightContact from './Components/LightContact.js';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
-  const target = React.createRef();
   return (
     <Router>
       <div className="App">

@@ -30,7 +30,7 @@ export default function About() {
                                 <h1 className="about-headers">About</h1>
                                 <br/>
     
-                                <img src={AboutPic} className="about-polaroid" />
+                                <img src={AboutPic} className="about-polaroid" alt="about" />
                                 <br/><br/><br/>
                             </Col>
     
@@ -122,7 +122,7 @@ export default function About() {
                             <Col xs={12} sm={12} md={12} lg={4} className="col-styles">
                                 <h1 className="about-headers">Personality</h1>
                                 <p className="about-text">
-                                    <a href="https://www.16personalities.com/intj-personality" className="about-links" target="_blank"><b>The Architect (INTJ)</b></a> — Myer Briggs Type <br/>
+                                    <a href="https://www.16personalities.com/intj-personality" className="about-links" target="_blank" rel="noopener noreferrer"><b>The Architect (INTJ)</b></a> — Myer Briggs Type <br/>
                                     "Imaginative and strategic thinkers, with a plan for everything.
                                     These thoughtful tacticians love perfecting the details of life, 
                                     applying creativity and rationality to everything they do."

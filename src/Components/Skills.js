@@ -4,7 +4,7 @@ import './Skills.css';
 import WorkExperience from './WorkExperience';
 import DarkContact from './DarkContact';
 
-import { Container, Row, Col, Card, CardGroup, Accordion, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, CardGroup } from 'react-bootstrap';
 
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -19,7 +19,7 @@ import Resume from './LichelleMaeGaerlan_Resume.pdf';
 
 export default props => {
     return(
-        <a name="about">
+        <div>
             <div className="skills">
                 <Container>
                     <Row style={{ paddingTop: '8%', paddingBottom: '4%'}}>
@@ -30,7 +30,7 @@ export default props => {
                                 (702) 302-2920
                             </p>
                             <button className="resume-button">
-                                <a href={Resume} className="resume-link" target="_blank">
+                                <a href={Resume} className="resume-link" target="_blank" rel="noopener noreferrer">
                                 Resume PDF
                                 </a>
                             </button>
@@ -235,6 +235,6 @@ export default props => {
 
             <WorkExperience />
             <DarkContact />
-        </a>
+        </div>
     );
 }

@@ -22,7 +22,7 @@ export default props => {
                         <br/><br/>
 
                         <p>
-                            <a className="e1-light" href="https://github.com/lichellegaerlan" target="_blank">Github</a> / <a className="e1-light" href="https://www.linkedin.com/in/lichellemaegaerlan" target="_blank">LinkedIn</a> / <a className="e1-light" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
+                            <a className="e1-light" href="https://github.com/lichellegaerlan" target="_blank" rel="noopener noreferrer">Github</a> / <a className="e1-light" href="https://www.linkedin.com/in/lichellemaegaerlan" target="_blank" rel="noopener noreferrer">LinkedIn</a> / <a className="e1-light" href="mailto:lichellemaegaerlan@gmail.com">Mail</a>
                         </p>
                     </Col>
                 </Row>

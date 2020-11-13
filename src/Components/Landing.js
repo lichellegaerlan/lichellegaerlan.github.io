@@ -15,7 +15,7 @@ export default props => {
                 <Container>
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={12}>
-                            <img src={Landing} className="landing-image" />
+                            <img src={Landing} className="landing-image" alt="profile" />
                         </Col>
 
                         <Col xs={12} sm={12} md={12} lg={12}>
