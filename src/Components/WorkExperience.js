@@ -11,19 +11,21 @@ export default props => {
                 <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
                     <h1 className="work-title">Education</h1>
                     <h2 className="work-sub">University of Nevada, Las Vegas</h2>
-                    <p>
+                    <p className="work-text">
                         <font color="#986359">AUGUST 2015 — MAY 2020</font> <br/> <br/>
                         Bachelor's of Science, Computer Science <br/>
                         Minor: Mathematics <br/>
                         Concentration: Information Assurance <br/>
                         Honors: Cum Laude <br/>
+                        Activities: Google Engineering Practicuum, Tau Beta Pi (Engineering Honor Society), Society of Women's Engineers, UNLV Cybersecurity Club,
+                        Consolidated Students of UNLV Academic Affairs Board
                     </p>
                 </Jumbotron>
 
                 <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
                     <h1 className="work-title">Network Technician</h1>
                     <h2 className="work-sub">UNLV Network Development and Engineering</h2>
-                    <p>
+                    <p className="work-text">
                         <font color="#986359">APRIL 2018 — PRESENT</font> <br/> <br/>
                         Provide support to customers to troubleshoot and resolve connectivity issues via phone call, e-mail, in-person requests, and helpdesk ticketing systems <br/>
                         Configuring, installing, and troubleshooting Cisco switches, voice gateways, uninterruptible power supplies (UPS), and wireless access points <br/>
@@ -41,9 +43,9 @@ export default props => {
                 <Jumbotron className="work-container" style={{ backgroundColor: "#fff" }}>
                     <h1 className="work-title">Teaching Assistant and Peer Mentor</h1>
                     <h2 className="work-sub">UNLV College of Engineering</h2>
-                    <p>
+                    <p className="work-text">
                         <font color="#986359">AUGUST 2018 — MAY 2019</font> <br/> <br/>
-                        Worked with first-year and second-year computer science students to provide guidance and tutoring in the student’s classes and first-year seminar engineering projects. <br/>
+                        Worked with first-year and second-year computer science students to provide guidance and tutoring in the student’s classes and first-year seminar engineering projects. 
                         Projects included: Web application development with Google App Inventor, mobile application development with Android Studio, and drone programming in Python. 
                     </p>
                 </Jumbotron>
