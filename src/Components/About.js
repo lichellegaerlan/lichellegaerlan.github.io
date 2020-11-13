@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './About.css';
-import AboutPic from './about_lighter.png';
+// import AboutPic from './about_lighter.png';
+import AboutPic from './about.png';
 import DarkContact from './DarkContact';
 
 import { Container, Row, Col } from 'react-bootstrap';
@@ -30,8 +31,32 @@ export default function About() {
                                 <h1 className="about-headers">About</h1>
                                 <br/>
     
-                                <img src={AboutPic} className="about-polaroid" alt="about" />
-                                <br/><br/><br/>
+                                <div className="mobile-about-pic">
+                                    {/* <img src={AboutPic} className="about-polaroid" alt="about" /> */}
+                                    <img src={AboutPic} className="about-pic" alt="about" /> <br/><br/>
+                                </div>
+
+                                <Row>
+                                    <Col xs={3} sm={3} md={3} lg={3}>
+                                        <p className="about-text stats">
+                                            <b><font color="#bb8c86">Name</font></b> <br/>
+                                            <b><font color="#bb8c86">Location</font></b> <br/>
+                                            <b><font color="#bb8c86">Education</font></b> <br/>
+                                            <b><font color="#bb8c86">Occupation</font></b> <br/>
+                                            <b><font color="#bb8c86">Interests</font></b> <br/>
+                                        </p>
+                                    </Col>
+                                    <Col xs={9} sm={9} md={9} lg={9}>
+                                        <p className="about-text stats">
+                                            Lichelle Gaerlan <br/>
+                                            Las Vegas, Nevada <br/>
+                                            BS in Computer Science <br/>
+                                            Network Technician <br/>
+                                            Digital art, running, reading, yoga, tarot <br/> 
+                                        </p>
+                                    </Col>
+                                </Row>
+                                <br/>
                             </Col>
     
                             <Col xs={12} sm={12} md={12} lg={4} className="col-styles" style={{ paddingRight: "20px"}}>

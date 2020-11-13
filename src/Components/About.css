@@ -47,6 +47,11 @@
     padding-left: 5%;
 } */
 
+.about-pic {
+    width: 150px;
+    height: 150px;
+}
+
 .about-polaroid {
     /* width to height ratio is 83%, as in height = 100%, width = 83% */
     width: 290px;
@@ -59,12 +64,12 @@
 }
 
 .about-links {
-    color: #B48079;
+    color: #bb8c86;
     text-decoration: none;
 }
 
 .about-links:hover {
-    color: #B48079;
+    color: #bb8c86;
     font-style: italic;
     text-decoration: none;
 }
@@ -81,6 +86,10 @@
 .about-text {
     text-align: left;
     font-size: 80%;
+}
+
+.stats {
+    font-size: 75%;
 }
 
 .process-button {
@@ -184,6 +193,19 @@
 
 /* fucking iphone 5s */
 @media only screen and (max-width: 325px) {
+    .about-pg {
+        padding-top: 15%;
+    }
+
+    .mobile-about-pic {
+        text-align: center;
+    }
+
+    .about-pic {
+        width: 135px;
+        height: 135px;
+    }
+
     .about-polaroid {
         width: 208px;
         height: 300px;
@@ -205,9 +227,13 @@
 /* phones */
 @media only screen and (max-width: 600px) {
     .about-pg {
-        padding-top: 25%;
+        padding-top: 20%;
         padding-left: 3%;
         margin-bottom: 0px;
+    }
+
+    .mobile-about-pic {
+        text-align: center;
     }
 
     .about-polaroid {
@@ -230,6 +256,10 @@
   
 /* tablet in portrait mode */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
+    .about-pg {
+        padding-top: 12%;
+    }
+
     .process-button {
         margin-right: 5px;
     }
@@ -243,6 +273,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .about-pg {
         height: 50vh;
+        padding-top: 10%;
     }
 
     .process-button {
