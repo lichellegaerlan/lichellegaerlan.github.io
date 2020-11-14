@@ -8,6 +8,7 @@ import { ExpandMore } from '@material-ui/icons';
 
 import DarkContact from './DarkContact.js';
 import ParkInn from './parkinn.png';
+import Readit from './Readit.png';
 
 export default function Portfolio() {
     const [open, setOpen] = React.useState(false);    
@@ -166,6 +167,26 @@ export default function Portfolio() {
                                         </Col>
                                     </div>
                                 </Dialog>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+
+                <Container>
+                    <Row>
+                        <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
+                            <img src={Readit} className="portfolio-pics" onClick={handleClickOpen} alt="readit-portfolio" />
+                            <Dialog fullScreen open={open} onClose={handleClose}>
+                                <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
+                                    <i className="mat-icons close-icon parkinn" onClick={handleClose}>close</i>
+                                </Toolbar>
+                            </Dialog>
+                        </Col>
+
+                        <Col xs={12} sm={12} md={6} lg={6} className="project-container">
+                            <div className="fade-in-text">
+                                <h1 className="project-title" style={{ color: "#B3B9DC" }}>Readit</h1> <br/>
+                                <h2 className="project-description">A mobile application to share your favorite books with your friends.</h2> <br />
                             </div>
                         </Col>
                     </Row>
