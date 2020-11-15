@@ -150,6 +150,17 @@
     padding-right: 5%;
 }
 
+.player-wrapper {
+    position: relative;
+    padding-top: 50.84%; /* Player ratio: 100 / (1280 / 720) */
+}
+   
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* fucking iphone 5s */
 /* @media only screen and (max-width: 325px) {
     .portfolio-pics {

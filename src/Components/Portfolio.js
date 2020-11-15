@@ -3,6 +3,7 @@ import React from 'react';
 import './Portfolio.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Dialog, Toolbar, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails } from '@material-ui/core';
+import ReactPlayer from 'react-player';
 
 import { ExpandMore } from '@material-ui/icons';
 
@@ -60,6 +61,10 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
+                                                        <div className='player-wrapper'>
+                                                            <ReactPlayer url='https://youtu.be/7JYyzctXCfE' className="react-player" width="90%" height="90%" /> <br/><br/>
+                                                        </div>
+
                                                         ParkInn is a parking reservation software that allows businesses to manage, monetize, and enforce parking online.
                                                         It consists of two applications: a web application for the businesses to manage their parking lots, and a mobile
                                                         application for guests to be able to reserve parking online. The software was intended to be used by businesses that
@@ -182,6 +187,10 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
+                                                        <div className='player-wrapper'>
+                                                            <ReactPlayer url='https://youtu.be/f81SUZmKdtg' className="react-player" width="90%" height="90%" /> <br/><br/>
+                                                        </div>
+
                                                         Readit is a mobile application that allows book lovers to be able to share their favorite
                                                         books with their friends. The app is designed to create a social media experience for users.
                                                         With Readit, users can create and add books to their personalized <i>bookshelves</i>, which have a similar 
@@ -189,10 +198,10 @@ export default function Portfolio() {
                                                         users can set their status to the book that they're currently reading, search for new books, find friends and visit
                                                         their profiles, and view statistics regarding their reading progress. <br/><br/>
 
-                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>View Interactive Prototype on Figma</a> <br/><br/>
-
                                                         This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>Daee Kang</a>. 
-                                                        Readit was originally created for Daee and I to create something fun for each of our portfolios.
+                                                        Readit was originally created for Daee and I to create something fun for each of our portfolios. <br/><br/>
+
+                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>View Interactive Prototype on Figma</a>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
