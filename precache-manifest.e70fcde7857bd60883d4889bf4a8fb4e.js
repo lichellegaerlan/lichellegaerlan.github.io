@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "754124a3872caa972ea5a0b618f0d044",
+    "revision": "72c21ae3fa67e12d4276328f08893d0c",
     "url": "/lichellegaerlan.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lichellegaerlan.github.io/static/css/2.6a770793.chunk.css"
   },
   {
-    "revision": "3b65d9343ab4eb5353e1",
-    "url": "/lichellegaerlan.github.io/static/css/main.7a3f2d71.chunk.css"
+    "revision": "6b9795baca055c90fbcf",
+    "url": "/lichellegaerlan.github.io/static/css/main.8b59770f.chunk.css"
   },
   {
     "revision": "372a975b7971e0c03c11",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lichellegaerlan.github.io/static/js/2.ba49fc66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b65d9343ab4eb5353e1",
-    "url": "/lichellegaerlan.github.io/static/js/main.963ea102.chunk.js"
+    "revision": "6b9795baca055c90fbcf",
+    "url": "/lichellegaerlan.github.io/static/js/main.d1dcb838.chunk.js"
   },
   {
     "revision": "783afbfbbf5056447167",
