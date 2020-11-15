@@ -147,6 +147,7 @@
     font-weight: 100; 
     color: #777;
     font-size: 100%;
+    padding-right: 5%;
 }
 
 /* fucking iphone 5s */
@@ -204,5 +205,13 @@
 
     .parkinn-text {
         font-size: 80%;
+    }
+
+    .readit-page {
+        padding-top: 5%;
+    }
+
+    .readit-header {
+        font-size: 100%;
     }
 }

@@ -133,7 +133,8 @@ export default function Portfolio() {
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Wireframe</a> */}
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Paper Prototype</a> */}
                                                         
-                                                        <font color="#73a9cf">Implement and Test</font> <br/>                                                        I presented my prototype to my team and my professor for approval before moving forward with implementation. 
+                                                        <font color="#73a9cf">Implement and Test</font> <br/>                                                        
+                                                        I presented my prototype to my team and my professor for approval before moving forward with implementation. 
                                                         Since I was also responsible for developing the web application's frontend, I was able to iteratively test and present 
                                                         the design and user experience of our product with my team members, classmates, and professor throughout its development.
 
@@ -153,7 +154,7 @@ export default function Portfolio() {
                             </div>
                         </Col>
                     </Row>
-                    
+
                     <br/><br/>
 
                     <Row>
@@ -177,11 +178,21 @@ export default function Portfolio() {
                                         <Col xs={12} sm={12} md={12} lg={8}>
                                             <ExpansionPanel>
                                                 <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
-                                                    <h1 className="readit-header">About Readit</h1>
+                                                    <h1 className="readit-header">About</h1>
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        Hello
+                                                        Readit is a mobile application that allows book lovers to be able to share their favorite
+                                                        books with their friends. The app is designed to create a social media experience for users.
+                                                        With Readit, users can create and add books to their personalized <i>bookshelves</i>, which have a similar 
+                                                        functionality to playlists on music streaming services such as Spotify. Furthermore, 
+                                                        users can set their status to the book that they're currently reading, search for new books, find friends and visit
+                                                        their profiles, and view statistics regarding their reading progress. <br/><br/>
+
+                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Bookshelf-App-(Version-2)?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>View Interactive Prototype on Figma</a> <br/><br/>
+
+                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        Readit was originally created for Daee and I to create something fun for each of our portfolios.
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -192,7 +203,11 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        Hello
+                                                        Conduct user interviews and competitive market analysis <br/>
+                                                        Used the findings from my research to create user personas and 
+                                                        write technical reports and documentation regarding our product's goals <br/>
+                                                        Create wireframes <br/>
+                                                        Create interactive prototypes using Figma <br/>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -203,7 +218,45 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        Hello
+                                                        <font color="#B3B9DC">Empathize and Identify</font> <br/>
+                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        His vision was to develop a mobile application that could blend elements from GoodReads, Spotify, and Instagram, such that
+                                                        users would be able to read, share, and find books in a social media setting. I had a conversation with Daee to gain a better
+                                                        understanding of his visions, goals, and motivations for this project. After talking to Daee, I found that the goal he had
+                                                        for Readit was driven by how often his friends would exchange book recommendations, without being able to conglomerate all recommendations
+                                                        efficiently, and in one place. <br/><br/>
+
+                                                        I later conducted market research to see how current applications on the market, such as GoodReads and Spotify, may be 
+                                                        unfulfilling to users. I also conducted user interviews to understand how often users share books with their friends,
+                                                        what motivates users to read, and what painpoints users are experience with current products on the market. <br/><br/>
+                                                        
+                                                        <font color="#B3B9DC">Analyze and Define</font> <br/>                                                        
+                                                        With the research gained from conducting market analysis and user interviews, I could identify and empathize with the 
+                                                        target demographic's goals and painpoints. Through research, I found that although users default to using GoodReads due to 
+                                                        the application's established popularity, users were unsatisifed with how complicated it was to find friends, find books,
+                                                        and add books to the shelf. Users wanted a sleek, straightforward, and efficient experience when completing these tasks. Users
+                                                        revealed that they typically have seamless experience when navigating their favorite social media or music streaming applications.
+                                                        With this information in mind, I was able to analyze the problem with exisitng applications, and define a new method
+                                                        of approaching the solution to these problems. <br/><br/>
+
+                                                        <font color="#B3B9DC">Ideate and Design</font> <br/>                                                        
+                                                        After analyzing the user's goals, motivations, and painpoints, I began a high-level brainstorm for how the product should operate. 
+                                                        First, I defined key features that were needed based off my findings. Then, I created the product's information architecture and sketched out the 
+                                                        general design and user flow for the product. I presented the information architecture, user flow, and wireframe to Daee to ensure that
+                                                        the goal and vision he had for Readit was being met. <br/><br/>
+
+                                                        After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Bookshelf-App-(Version-2)?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>interactive prototype on Figma</a>. <br/><br/>
+                                                        
+                                                        <font color="#B3B9DC">Implement and Test</font> <br/>                                                        
+                                                        I presented my prototype to Daee for feedback and approval. He was happy with how the product's prototype came out,
+                                                        and found the user interface to be clean, efficient, and intuitive. The product was also presented to various users,
+                                                        both avid and sporadic readers, who also found the product to be pleasant and straightforward to use. <br/><br/>
+
+                                                        Afterwards, Daee and I continued to discuss potential features that could be implemented within the app. 
+                                                        We later want to design and implement a feature where users can find books by scanning the ISBNs.
+                                                        We also discussed the potential for monetizing the app. Considering that Readit allows users to search for books and read their descriptions,
+                                                        a potential monetization strategy that we brainstormed was to include affiliate links in the book descriptions
+                                                        for users to purchase the books on Amazon. <br/><br/>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
