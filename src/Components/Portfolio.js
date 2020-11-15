@@ -11,14 +11,24 @@ import ParkInn from './parkinn.png';
 import Readit from './Readit.png';
 
 export default function Portfolio() {
-    const [open, setOpen] = React.useState(false);    
+    const [openParkinn, setOpenParkinn] = React.useState(false);    
 
-    const handleClickOpen = () => {
-        setOpen(true);
+    const handleOpenParkinn = () => {
+        setOpenParkinn(true);
     };
     
-    const handleClose = () => {
-        setOpen(false);
+    const handleCloseParkinn = () => {
+        setOpenParkinn(false);
+    };
+
+    const [openReadit, setOpenReadit] = React.useState(false);    
+
+    const handleOpenReadit = () => {
+        setOpenReadit(true);
+    };
+    
+    const handleCloseReadit = () => {
+        setOpenReadit(false);
     };
 
     return(
@@ -27,12 +37,7 @@ export default function Portfolio() {
                 <Container>
                     <Row>
                         <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
-                            <img src={ParkInn} className="portfolio-pics" onClick={handleClickOpen} alt="parkinn-portfolio" />
-                            <Dialog fullScreen open={open} onClose={handleClose}>
-                                <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
-                                    <i className="mat-icons close-icon parkinn" onClick={handleClose}>close</i>
-                                </Toolbar>
-                            </Dialog>
+                            <img src={ParkInn} className="portfolio-pics" alt="parkinn-portfolio" />
                         </Col>
 
                         <Col xs={12} sm={12} md={6} lg={6} className="project-container">
@@ -40,10 +45,10 @@ export default function Portfolio() {
                                 <h1 className="project-title" style={{ color: "#73a9cf" }}>ParkInn</h1> <br/>
                                 <h2 className="project-description">A parking reservation software to manage, monetize, and enforce parking reservations.</h2> <br />
 
-                                <button className="project-button parkinn" onClick={handleClickOpen}>Learn More</button>
-                                <Dialog fullScreen open={open} onClose={handleClose}>
+                                <button className="project-button parkinn" onClick={handleOpenParkinn}>Learn More</button>
+                                <Dialog fullScreen open={openParkinn} onClose={handleCloseParkinn}>
                                     <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
-                                        <i className="mat-icons close-icon parkinn" onClick={handleClose}>close</i>
+                                        <i className="mat-icons close-icon" onClick={handleCloseParkinn}>close</i>
                                     </Toolbar>
 
                                     <div className="parkinn-page">
@@ -51,7 +56,7 @@ export default function Portfolio() {
                                             {/* <ExpansionPanel defaultExpanded="true"> */}
                                             <ExpansionPanel>
                                                 <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#73a9cf" }} />} >
-                                                    <h1 className="parkinn-header">About ParkInn</h1>
+                                                    <h1 className="parkinn-header">About</h1>
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
@@ -79,27 +84,6 @@ export default function Portfolio() {
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
 
-                                            {/* <ExpansionPanel>
-                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#73a9cf" }} />}>
-                                                    <h1 className="parkinn-header">Features</h1>
-                                                </ExpansionPanelSummary>
-                                                <ExpansionPanelDetails>
-                                                    <p className="parkinn-text">
-                                                        With ParkInn, businesses can: <br/>
-                                                        1. Design their parking lot(s) <br/>
-                                                        2. Sell parking reservations and permits <br/> 
-                                                        3. See statistics about their lots, such as revenue earned over time and peak parking hours <br/>
-                                                        4. Notify users about lot updates, such as closures or limited spaces <br/>
-                                                        5. Handle parking incidents reported by guests <br/><br/>
-
-                                                        Additionally, guests can: <br/>
-                                                        1. Reserve and purchase parking spots and permits <br/>
-                                                        2. See a live map of the lots and available spaces <br/>
-                                                        3. Report incidents to the parking enforcers <br/><br/>
-                                                    </p>
-                                                </ExpansionPanelDetails>
-                                            </ExpansionPanel> */}
-
                                             <ExpansionPanel>
                                                 <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#73a9cf" }} />}>
                                                     <h1 className="parkinn-header">My Role</h1>
@@ -121,7 +105,7 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        <i className="mat-icons parkinn-icons">person_pin</i><span className="tab" style={{ color: "#73a9cf" }}>Empathize and Identify</span> <br/>
+                                                        <font color="#73a9cf">Empathize and Identify</font> <br/>
                                                         My group and I started ParkInn because we were frustrated with finding parking at our university and across the city.
                                                         Later, I conducted user interviews to assess the goals and painpoints of my group members, students, and faculty members
                                                         at our university. <br/> <br/>
@@ -133,7 +117,7 @@ export default function Portfolio() {
                                                         
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Analysis Report</a> */}
                                                         
-                                                        <i className="mat-icons parkinn-icons">search</i><span className="tab" style={{ color: "#73a9cf" }}>Analyze and Define</span> <br/>
+                                                        <font color="#73a9cf">Analyze and Define</font> <br/>                                                        
                                                         By conducting user interviews, and even putting myself into the position of a potential user, I understood
                                                         that users just wanted a simple, clean, and straightforward way to be able to view and reserve spots in certain lots with
                                                         a similar system to placing movie theater recommendations. Conducting market analysis also allowed me to recognize that
@@ -143,14 +127,13 @@ export default function Portfolio() {
 
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View User Persona</a> */}
 
-                                                        <i className="mat-icons parkinn-icons">create</i><span className="tab" style={{ color: "#73a9cf" }}>Ideate and Design</span> <br/>
+                                                        <font color="#73a9cf">Ideate and Design</font> <br/>                                                        
                                                         After conducting research and analyzing the current problem, I met with my team to discuss my findings and suggesting
                                                         core features necessary to create our product based off of my findings. With this in mind, I wireframed and prototyped the product using Figma. <br/><br/>
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Wireframe</a> */}
                                                         {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Paper Prototype</a> */}
                                                         
-                                                        <i className="mat-icons parkinn-icons">build</i><span className="tab" style={{ color: "#73a9cf" }}>Implement and Test</span> <br/>
-                                                        I presented my prototype to my team and my professor for approval before moving forward with implementation. 
+                                                        <font color="#73a9cf">Implement and Test</font> <br/>                                                        I presented my prototype to my team and my professor for approval before moving forward with implementation. 
                                                         Since I was also responsible for developing the web application's frontend, I was able to iteratively test and present 
                                                         the design and user experience of our product with my team members, classmates, and professor throughout its development.
 
@@ -163,7 +146,71 @@ export default function Portfolio() {
                                         </Col>
                                         <br/><br/>
                                         <Col xs={12} sm={12} md={12} lg={6}>
-                                            <button className="close-button parkinn-close-button" onClick={handleClose}>Close</button>
+                                            <button className="close-button parkinn-close-button" onClick={handleCloseParkinn}>Close</button>
+                                        </Col>
+                                    </div>
+                                </Dialog>
+                            </div>
+                        </Col>
+                    </Row>
+                    
+                    <br/><br/>
+
+                    <Row>
+                        <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
+                            <img src={Readit} className="portfolio-pics" alt="readit-portfolio" />
+                        </Col>
+
+                        <Col xs={12} sm={12} md={6} lg={6} className="project-container">
+                            <div className="fade-in-text">
+                                <h1 className="project-title" style={{ color: "#B3B9DC" }}>Readit</h1> <br/>
+                                <h2 className="project-description">A mobile application that allows you to share your favorite books with your friends.</h2> <br />
+
+                                <button className="project-button readit" onClick={handleOpenReadit}>Learn More</button>
+                                <Dialog fullScreen open={openReadit} onClose={handleCloseReadit}>
+                                    <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
+                                        <i className="mat-icons close-icon" onClick={handleCloseReadit}>close</i>
+                                    </Toolbar>
+
+
+                                    <div className="readit-page">
+                                        <Col xs={12} sm={12} md={12} lg={8}>
+                                            <ExpansionPanel>
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                    <h1 className="readit-header">About Readit</h1>
+                                                </ExpansionPanelSummary>
+                                                <ExpansionPanelDetails>
+                                                    <p className="parkinn-text">
+                                                        Hello
+                                                    </p>
+                                                </ExpansionPanelDetails>
+                                            </ExpansionPanel>
+
+                                            <ExpansionPanel>
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                    <h1 className="readit-header">My Role</h1>
+                                                </ExpansionPanelSummary>
+                                                <ExpansionPanelDetails>
+                                                    <p className="parkinn-text">
+                                                        Hello
+                                                    </p>
+                                                </ExpansionPanelDetails>
+                                            </ExpansionPanel>
+
+                                            <ExpansionPanel>
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                    <h1 className="readit-header">My Process</h1>
+                                                </ExpansionPanelSummary>
+                                                <ExpansionPanelDetails>
+                                                    <p className="parkinn-text">
+                                                        Hello
+                                                    </p>
+                                                </ExpansionPanelDetails>
+                                            </ExpansionPanel>
+                                        </Col>
+                                        <br/><br/>
+                                        <Col xs={12} sm={12} md={12} lg={6}>
+                                            <button className="close-button readit-close-button" onClick={handleCloseReadit}>Close</button>
                                         </Col>
                                     </div>
                                 </Dialog>
@@ -172,37 +219,7 @@ export default function Portfolio() {
                     </Row>
                 </Container>
 
-                <Container>
-                    <Row>
-                        <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
-                            <img src={Readit} className="portfolio-pics" onClick={handleClickOpen} alt="readit-portfolio" />
-                            <Dialog fullScreen open={open} onClose={handleClose}>
-                                <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
-                                    <i className="mat-icons close-icon parkinn" onClick={handleClose}>close</i>
-                                </Toolbar>
-                            </Dialog>
-                        </Col>
-
-                        <Col xs={12} sm={12} md={6} lg={6} className="project-container">
-                            <div className="fade-in-text">
-                                <h1 className="project-title" style={{ color: "#B3B9DC" }}>Readit</h1> <br/>
-                                <h2 className="project-description">A mobile application to share your favorite books with your friends.</h2> <br />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
             </div>
-
-            {/* <div className="portfolio-preview">
-                <Row className="preview-container">
-                    <Col xs={12} sm={12} md={12} lg={12}>
-                        <h1 className="project-title">
-                            More projects coming soon
-                        </h1>
-                    </Col>
-                 </Row>
-            </div> */}
-
             <DarkContact />
         </div>
     );

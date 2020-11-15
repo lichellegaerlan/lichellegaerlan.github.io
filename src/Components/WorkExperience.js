@@ -27,16 +27,15 @@ export default props => {
                     <h2 className="work-sub">UNLV Network Development and Engineering</h2>
                     <p className="work-text">
                         <font color="#986359">APRIL 2018 — PRESENT</font> <br/> <br/>
-                        Provide support to customers to troubleshoot and resolve connectivity issues via phone call, e-mail, in-person requests, and helpdesk ticketing systems <br/>
-                        Configuring, installing, and troubleshooting Cisco switches, voice gateways, uninterruptible power supplies (UPS), and wireless access points <br/>
-                        Cabling and tracing of data and fiber infrastructure <br/>
-                        Created IP address reservations and DNS records using Infoblox <br/>
-                        Created topology diagrams of campus network <br/>
-                        Maintained inventory of network devices and documentation of the status of all intermediate distribution frames (~200 IDF’s) on campus <br/>
-                        Write technical documentation articles for automation scripts and workplace procedures <br/>
-                        Basic automation scripting to assist network engineers with ongoing projects <br/>
-                        Maintain codebase for current UNLV NDE websites written in AngularJS and Node.js <br/>
-
+                        - Provide support to customers to troubleshoot and resolve connectivity issues via phone call, e-mail, in-person requests, and helpdesk ticketing systems <br/>
+                        - Configuring, installing, and troubleshooting Cisco switches, voice gateways, uninterruptible power supplies (UPS), and wireless access points <br/>
+                        - Cabling and tracing of data and fiber infrastructure <br/>
+                        - Created IP address reservations and DNS records using Infoblox <br/>
+                        - Created topology diagrams of campus network <br/>
+                        - Maintained inventory of network devices and documentation of the status of all intermediate distribution frames (~200 IDF’s) on campus <br/>
+                        - Write technical documentation articles for automation scripts and workplace procedures <br/>
+                        - Basic automation scripting to assist network engineers with ongoing projects <br/>
+                        - Maintain codebase for current UNLV NDE websites written in AngularJS and Node.js <br/>
                     </p>
                 </Jumbotron>
 

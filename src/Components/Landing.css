@@ -40,6 +40,18 @@
     text-decoration: none;
 }
 
+.portfolio-title {
+  font-family: "Helvetica";
+  font-weight: 100;
+  color: #555;
+  font-size: 120%;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 0px;
+}
+
 .fade-in-about {
     animation: fadeIn ease 4s;
     -webkit-animation: fadeIn ease 4s;

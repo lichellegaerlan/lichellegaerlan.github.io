@@ -55,8 +55,9 @@
     text-decoration: none;
 }
 
-.parkinn {
-    color: #73a9cf;
+
+.readit {
+    color: #B3B9DC;
     background-color: #fff;
 }
 
@@ -83,6 +84,11 @@
     padding: 0 2% 2% 5%;
 }
 
+.readit-page {
+    /* padding: top right bottom left */
+    padding: 0 2% 2% 5%;
+}
+
 .close-button {
     font-family: "Helvetica";
     font-weight: 500;
@@ -97,6 +103,11 @@
     padding: 6px 10px 5px 10px;
 }
 
+.parkinn {
+    color: #73a9cf;
+    background-color: #fff;
+}
+
 .parkinn-close-button {
     color: #fff;
     background-color: #73a9cf;
@@ -107,16 +118,27 @@
     background-color: #fff;
 }
 
-.parkinn-icons {
-    color: #73a9cf;
-    font-size: 13px;
+.readit-close-button {
+    color: #fff;
+    background-color: #B3B9DC;
 }
 
+.readit-close-button:hover {
+    color: #B3B9DC;
+    background-color: #fff;
+}
 
 .parkinn-header {
     font-family: "Helvetica";
     font-weight: 100;
     color: #73a9cf;
+    font-size: 125%;
+}
+
+.readit-header {
+    font-family: "Helvetica";
+    font-weight: 100;
+    color: #B3B9DC;
     font-size: 125%;
 }
 
