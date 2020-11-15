@@ -114,8 +114,8 @@ export default function About() {
                                                 <i className="mat-icons process-icons">create</i><span className="tab"><h2 className="process-headers">Ideate and Design</h2></span> <br/>
                                                 <p className="about-text">
                                                 I begin brainstorming and creating the information architecture. Afterwards, I can create quick sketches of the user flow
-                                                and wireframing the key features for the product. As the process continues, I later use Figma and InVision Studio (beginner)
-                                                to create various prototypes.
+                                                and wireframing the key features for the product. As the process continues, I use Figma to create interactive mockups and prototypes.
+                                                Although I'm still a beginner with the software, I've been trying to learn Adobe XD as of late.
                                                 </p>
                                                 <br/>
                                             </Col> 
