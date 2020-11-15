@@ -4,8 +4,6 @@
     /* width: 100vw; */
     padding-top: 7%;
     padding-right: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
     text-align: left;
 }
 
@@ -44,5 +42,13 @@
 @media only screen and (max-width: 600px) {
     .contact-page-dark {
         padding-top: 20%;
+    }
+
+    .n1-dark {
+        font-size: 195%;
+    }
+
+    .n2-dark {
+        font-size: 110%;
     }
 }

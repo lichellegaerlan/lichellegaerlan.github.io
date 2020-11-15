@@ -1,8 +1,8 @@
 .contact-page-light {
     /* background: #794f47; */
     height: 50vh;
-    padding-top: 7%;
-    margin-bottom: 100px;
+    padding-top: 11%;
+    padding-bottom: 27%;
     text-align: left;
 }
 
@@ -36,5 +36,13 @@
 @media only screen and (max-width: 600px) {
     .contact-page-light {
         padding-top: 20%;
+    }
+
+    .n1-light {
+        font-size: 195%;
+    }
+
+    .n2-light {
+        font-size: 110%;
     }
 }
