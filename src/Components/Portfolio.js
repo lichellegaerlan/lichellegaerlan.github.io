@@ -37,7 +37,7 @@ export default function Portfolio() {
                 <Container>
                     <Row>
                         <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
-                            <img src={ParkInn} className="portfolio-pics" alt="parkinn-portfolio" />
+                            <img src={ParkInn} className="portfolio-pics" alt="parkinn-portfolio" onClick={handleOpenParkinn} />
                         </Col>
 
                         <Col xs={12} sm={12} md={6} lg={6} className="project-container">
@@ -159,12 +159,12 @@ export default function Portfolio() {
 
                     <Row>
                         <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
-                            <img src={Readit} className="portfolio-pics" alt="readit-portfolio" />
+                            <img src={Readit} className="portfolio-pics" alt="readit-portfolio" onClick={handleOpenReadit} />
                         </Col>
 
                         <Col xs={12} sm={12} md={6} lg={6} className="project-container">
                             <div className="fade-in-text">
-                                <h1 className="project-title" style={{ color: "#B3B9DC" }}>Readit</h1> <br/>
+                                <h1 className="project-title" style={{ color: "#a2a9d4" }}>Readit</h1> <br/>
                                 <h2 className="project-description">A mobile application that allows you to share your favorite books with your friends.</h2> <br />
 
                                 <button className="project-button readit" onClick={handleOpenReadit}>Learn More</button>
@@ -177,7 +177,7 @@ export default function Portfolio() {
                                     <div className="readit-page">
                                         <Col xs={12} sm={12} md={12} lg={8}>
                                             <ExpansionPanel>
-                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#a2a9d4" }} />} >
                                                     <h1 className="readit-header">About</h1>
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
@@ -189,16 +189,16 @@ export default function Portfolio() {
                                                         users can set their status to the book that they're currently reading, search for new books, find friends and visit
                                                         their profiles, and view statistics regarding their reading progress. <br/><br/>
 
-                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Bookshelf-App-(Version-2)?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>View Interactive Prototype on Figma</a> <br/><br/>
+                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>View Interactive Prototype on Figma</a> <br/><br/>
 
-                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>Daee Kang</a>. 
                                                         Readit was originally created for Daee and I to create something fun for each of our portfolios.
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
 
                                             <ExpansionPanel>
-                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#a2a9d4" }} />} >
                                                     <h1 className="readit-header">My Role</h1>
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
@@ -213,13 +213,13 @@ export default function Portfolio() {
                                             </ExpansionPanel>
 
                                             <ExpansionPanel>
-                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#B3B9DC" }} />} >
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#a2a9d4" }} />} >
                                                     <h1 className="readit-header">My Process</h1>
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        <font color="#B3B9DC">Empathize and Identify</font> <br/>
-                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        <font color="#a2a9d4">Empathize and Identify</font> <br/>
+                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>Daee Kang</a>. 
                                                         His vision was to develop a mobile application that could blend elements from GoodReads, Spotify, and Instagram, such that
                                                         users would be able to read, share, and find books in a social media setting. I had a conversation with Daee to gain a better
                                                         understanding of his visions, goals, and motivations for this project. After talking to Daee, I found that the goal he had
@@ -230,7 +230,7 @@ export default function Portfolio() {
                                                         unfulfilling to users. I also conducted user interviews to understand how often users share books with their friends,
                                                         what motivates users to read, and what painpoints users are experience with current products on the market. <br/><br/>
                                                         
-                                                        <font color="#B3B9DC">Analyze and Define</font> <br/>                                                        
+                                                        <font color="#a2a9d4">Analyze and Define</font> <br/>                                                        
                                                         With the research gained from conducting market analysis and user interviews, I could identify and empathize with the 
                                                         target demographic's goals and painpoints. Through research, I found that although users default to using GoodReads due to 
                                                         the application's established popularity, users were unsatisifed with how complicated it was to find friends, find books,
@@ -239,15 +239,15 @@ export default function Portfolio() {
                                                         With this information in mind, I was able to analyze the problem with exisitng applications, and define a new method
                                                         of approaching the solution to these problems. <br/><br/>
 
-                                                        <font color="#B3B9DC">Ideate and Design</font> <br/>                                                        
+                                                        <font color="#a2a9d4">Ideate and Design</font> <br/>                                                        
                                                         After analyzing the user's goals, motivations, and painpoints, I began a high-level brainstorm for how the product should operate. 
                                                         First, I defined key features that were needed based off my findings. Then, I created the product's information architecture and sketched out the 
                                                         general design and user flow for the product. I presented the information architecture, user flow, and wireframe to Daee to ensure that
                                                         the goal and vision he had for Readit was being met. <br/><br/>
 
-                                                        After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Bookshelf-App-(Version-2)?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#B3B9DC", textDecoration: "none" }}>interactive prototype on Figma</a>. <br/><br/>
+                                                        After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>interactive prototype on Figma</a>. <br/><br/>
                                                         
-                                                        <font color="#B3B9DC">Implement and Test</font> <br/>                                                        
+                                                        <font color="#a2a9d4">Implement and Test</font> <br/>                                                        
                                                         I presented my prototype to Daee for feedback and approval. He was happy with how the product's prototype came out,
                                                         and found the user interface to be clean, efficient, and intuitive. The product was also presented to various users,
                                                         both avid and sporadic readers, who also found the product to be pleasant and straightforward to use. <br/><br/>

@@ -139,7 +139,7 @@ export default function About() {
 
                                     {/* <span className="tab"><td onClick={()=> window.open("/portfolio", "_blank")}><button className="process-button">My Portfolio</button></td></span> */}
 
-                                    <button className="portfolio-button"><Link to="/portfolio" className="process-link" target="_blank">My Portfolio</Link></button>
+                                    <button className="portfolio-button"><Link to="/portfolio" className="process-link">My Portfolio</Link></button>
                                     <br/><br/>
                                 </p>
                             </Col>
