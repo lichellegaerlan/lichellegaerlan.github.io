@@ -11,13 +11,14 @@
     font-weight: 100;
     color: #794f47;
     letter-spacing: 2px;
+    font-size: 170%;
 }
 
 .n2-light {
     font-family: "Oxygen";
     font-weight: 100;
     color: #794f47;
-    font-size: 115%;
+    font-size: 105%;
 }
 
 .e1-light {
@@ -36,6 +37,7 @@
 @media only screen and (max-width: 600px) {
     .contact-page-light {
         padding-top: 25%;
+        height: 60vh;
     }
 
     .n1-light {
@@ -44,5 +46,19 @@
 
     .n2-light {
         font-size: 110%;
+    }
+}
+
+/* tablet in portrait mode */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .contact-page-light {
+        height: 45vh;
+    }
+}
+
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-page-light {
+        height: 35vh;
     }
 }

@@ -12,13 +12,14 @@
     font-weight: 100;
     color: #e0d0cd;
     letter-spacing: 2px;
+    font-size: 170%;
 }
 
 .n2-dark {
     font-family: "Helvetica";
     font-weight: 100;
     color: #e0d0cd;
-    font-size: 115%;
+    font-size: 105%;
 }
 
 .contact-text-dark {
@@ -41,7 +42,8 @@
 /* phones */
 @media only screen and (max-width: 600px) {
     .contact-page-dark {
-        padding-top: 25%;
+        padding-top: 20%;
+        height: 60vh;
     }
 
     .n1-dark {
@@ -50,5 +52,19 @@
 
     .n2-dark {
         font-size: 110%;
+    }
+}
+
+/* tablet in portrait mode */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .contact-page-dark {
+        height: 45vh;
+    }
+}
+
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-page-dark {
+        height: 35vh;
     }
 }

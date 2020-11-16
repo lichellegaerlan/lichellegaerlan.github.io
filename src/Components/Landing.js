@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 // import Landing from './landing.png';
 import LandingTest from './landing-test.png';
-import Portfolio from './Portfolio';
+import LandingPortfolio from './LandingPortfolio';
 import LightContact from './LightContact.js';
 
 export default props => {
@@ -37,6 +37,7 @@ export default props => {
             
             {/* <h1 className="portfolio-title">Portfolio</h1> */}
             {/* <Portfolio /> */}
+            <LandingPortfolio />
             <LightContact />
         </div>
     );
