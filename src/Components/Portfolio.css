@@ -28,15 +28,15 @@
 .project-title {
     font-family: "Helvetica";
     font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
     font-size: 150%;
 }
 
 .project-description {
     font-family: "Helvetica";
     font-weight: 100;
-    font-size: 150%;
+    font-size: 135%;
     color: #666;
 }
 
@@ -58,6 +58,11 @@
 
 .readit {
     color: #a2a9d4;
+    background-color: #fff;
+}
+
+.soulmates {
+    color: #D46F6F;
     background-color: #fff;
 }
 
@@ -85,6 +90,11 @@
 }
 
 .readit-page {
+    /* padding: top right bottom left */
+    padding: 0 2% 2% 5%;
+}
+
+.soulmates-page {
     /* padding: top right bottom left */
     padding: 0 2% 2% 5%;
 }
@@ -128,6 +138,16 @@
     background-color: #fff;
 }
 
+.soulmates-close-button {
+    color: #fff;
+    background-color: #D46F6F;
+}
+
+.soulmates-close-button:hover {
+    color: #D46F6F;
+    background-color: #fff;
+}
+
 .parkinn-header {
     font-family: "Helvetica";
     font-weight: 100;
@@ -139,6 +159,13 @@
     font-family: "Helvetica";
     font-weight: 100;
     color: #a2a9d4;
+    font-size: 125%;
+}
+
+.soulmates-header {
+    font-family: "Helvetica";
+    font-weight: 100;
+    color: #D46F6F;
     font-size: 125%;
 }
 
@@ -173,7 +200,7 @@
 /* phones */
 @media only screen and (max-width: 600px) {
     .portfolio {
-        padding-top: 25%;
+        padding-top: 15%;
     }
 
     .project-title {
@@ -187,6 +214,22 @@
     .project-description {
         font-size: 90%;
         text-align: center;
+    }
+
+
+    .project-button {
+        font-family: "Oxygen";
+        font-weight: 100;
+        font-size: 100%;
+        text-transform: uppercase;
+        /* padding: 5px 5px 5px 5px; */
+        border-radius: 5px;
+        border-style: none;
+    }
+    
+    .project-button:hover {
+        font-weight: 600;
+        text-decoration: none;
     }
 
     .project-button {
@@ -209,6 +252,7 @@
 
     .parkinn-page {
         padding-top: 5%;
+        padding-left: 2%;
     }
 
     .parkinn-header {
@@ -221,9 +265,19 @@
 
     .readit-page {
         padding-top: 5%;
+        padding-left: 2%;
     }
 
     .readit-header {
+        font-size: 100%;
+    }
+
+    .soulmates-page {
+        padding-top: 5%;
+        padding-left: 2%;
+    }
+
+    .soulmates-header {
         font-size: 100%;
     }
 }

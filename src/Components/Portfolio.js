@@ -10,6 +10,7 @@ import { ExpandMore } from '@material-ui/icons';
 import DarkContact from './DarkContact.js';
 import ParkInn from './parkinn.png';
 import Readit from './Readit.png';
+import Soulmates from './Soulmates.png';
 
 export default function Portfolio() {
     const [openParkinn, setOpenParkinn] = React.useState(false);    
@@ -30,6 +31,16 @@ export default function Portfolio() {
     
     const handleCloseReadit = () => {
         setOpenReadit(false);
+    };
+
+    const [openSoulmates, setOpenSoulmates] = React.useState(false);    
+
+    const handleOpenSoulmates = () => {
+        setOpenSoulmates(true);
+    };
+    
+    const handleCloseSoulmates = () => {
+        setOpenSoulmates(false);
     };
 
     return(
@@ -54,8 +65,7 @@ export default function Portfolio() {
 
                                     <div className="parkinn-page">
                                         <Col xs={12} sm={12} md={12} lg={8}>
-                                            {/* <ExpansionPanel defaultExpanded="true"> */}
-                                            <ExpansionPanel>
+                                            <ExpansionPanel defaultExpanded="true">
                                                 <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#73a9cf" }} />} >
                                                     <h1 className="parkinn-header">About</h1>
                                                 </ExpansionPanelSummary>
@@ -152,7 +162,7 @@ export default function Portfolio() {
                                         </Col>
                                         <br/><br/>
                                         <Col xs={12} sm={12} md={12} lg={6}>
-                                            <button className="close-button parkinn-close-button" onClick={handleCloseParkinn}>Close</button>
+                                            <button className="close-button parkinn-close-button" onClick={handleCloseParkinn}>Close</button> <br/>
                                         </Col>
                                     </div>
                                 </Dialog>
@@ -181,7 +191,7 @@ export default function Portfolio() {
 
                                     <div className="readit-page">
                                         <Col xs={12} sm={12} md={12} lg={8}>
-                                            <ExpansionPanel>
+                                            <ExpansionPanel defaultExpanded="true">
                                                 <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#a2a9d4" }} />} >
                                                     <h1 className="readit-header">About</h1>
                                                 </ExpansionPanelSummary>
@@ -272,7 +282,63 @@ export default function Portfolio() {
                                         </Col>
                                         <br/><br/>
                                         <Col xs={12} sm={12} md={12} lg={6}>
-                                            <button className="close-button readit-close-button" onClick={handleCloseReadit}>Close</button>
+                                            <button className="close-button readit-close-button" onClick={handleCloseReadit}>Close</button> <br/>
+                                        </Col>
+                                    </div>
+                                </Dialog>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <br/><br/>
+
+                    <Row>
+                        <Col xs={12} sm={12} md={6} lg={6} className="pic-container">
+                            <img src={Soulmates} className="portfolio-pics" alt="soulmates-portfolio" onClick={handleOpenSoulmates} />
+                        </Col>
+                        <Col xs={12} sm={12} md={6} lg={6} className="project-container">
+                            <div className="fade-in-text">
+                                <h1 className="project-title" style={{ color: "#D46F6F" }}>Soulmates</h1> <br/>
+                                <h2 className="project-description">An astrology dating app that uses your natal chart to find your best match.</h2> <br />
+
+                                <button className="project-button soulmates" onClick={handleOpenSoulmates}>Learn More</button>
+
+                                <Dialog fullScreen open={openSoulmates} onClose={handleCloseSoulmates}>
+                                    <Toolbar style={{ flexDirection:'row-reverse', marginBottom: '0px' }}>
+                                        <i className="mat-icons close-icon" onClick={handleCloseSoulmates}>close</i>
+                                    </Toolbar>
+
+
+                                    <div className="soulmates-page">
+                                        <Col xs={12} sm={12} md={12} lg={8}>
+                                            <ExpansionPanel defaultExpanded="true">
+                                                <ExpansionPanelSummary expandIcon={<ExpandMore style={{ color: "#D46F6F" }} />} >
+                                                    <h1 className="soulmates-header">About</h1>
+                                                </ExpansionPanelSummary>
+                                                <ExpansionPanelDetails>
+                                                    <p className="parkinn-text">
+                                                        Soulmates is a mobile dating application that allows you to find your perfect match based off your astrological natal chart.
+                                                        Although it's intended to be a dating app, users can optionally set the app to find career or friendship matches as well. <br/><br/>
+
+                                                        When users sign up, they will input their birth information, such as the location, date, and time. The application will then
+                                                        generate a birth chart for the user. When users are looking for matches, they will see other user's birth charts, along with 
+                                                        a compatibility rating (as a percentage) between the two users, whether it's a romantic or platonic connection. <br/><br/>
+                                                        
+                                                        Although the app shows compatibility ratings between users, it will <i>not</i> prevent users from being able to see potential matches whose compatibility ratings are considered "low."
+                                                        Despite my interest in astrology, I am a believer in creating your own fate and having the discernment to make your own choices in life, both with and without an
+                                                        astrological explanation. As such, the app aims to create a personalized, social experience outside of user's birth charts. This is achieved by letting users customize their profiles by uploading 
+                                                        their own photos, creating their own bios, selectively filling out fields about their interests, and connecting to social media platforms like Twitter, Spotify, and Instagram. <br/><br/>
+
+                                                        The design and development process for the application began in November 2020, so more information is to come.
+                                                        Although Soulmates is still a work in progress, feel free to 
+                                                        <a href="https://www.figma.com/proto/8psR2WxCqynonuuFLHEbM6/Soulmates?node-id=1%3A2&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#D46F6F", textDecoration: "none" }}> view my interactive prototyping journey on Figma</a>. <br/>
+                                                    </p>
+                                                </ExpansionPanelDetails>
+                                            </ExpansionPanel>
+                                        </Col>
+                                        <br/><br/>
+                                        <Col xs={12} sm={12} md={12} lg={6}>
+                                            <button className="close-button soulmates-close-button" onClick={handleCloseSoulmates}>Close</button> <br/>
                                         </Col>
                                     </div>
                                 </Dialog>
