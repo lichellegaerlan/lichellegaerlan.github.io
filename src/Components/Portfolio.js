@@ -322,11 +322,12 @@ export default function Portfolio() {
 
                                                         When users sign up, they will input their birth information, such as the location, date, and time. The application will then
                                                         generate a birth chart for the user. When users are looking for matches, they will see other user's birth charts, along with 
-                                                        a compatibility rating (as a percentage) between the two users, whether it's a romantic or platonic connection. <br/><br/>
+                                                        a compatibility rating (as a percentage) between the two users, whether it's a romantic or platonic connection. Users will be able to
+                                                        see the explanation of which astrological aspects contribute to making two users a good match.<br/><br/>
                                                         
-                                                        Although the app shows compatibility ratings between users, it will <i>not</i> prevent users from being able to see potential matches whose compatibility ratings are considered "low."
+                                                        Although the app shows compatibility ratings between users, it will <i>not</i> prevent users from being able to see or match with users whose compatibility ratings are considered "low."
                                                         Despite my interest in astrology, I am a believer in creating your own fate and having the discernment to make your own choices in life, both with and without an
-                                                        astrological explanation. As such, the app aims to create a personalized, social experience outside of user's birth charts. This is achieved by letting users customize their profiles by uploading 
+                                                        astrological explanation. As such, the app aims to create a personalized, social experience regardless of the user's birth charts. This is achieved by letting users customize their profiles by uploading 
                                                         their own photos, creating their own bios, selectively filling out fields about their interests, and connecting to social media platforms like Twitter, Spotify, and Instagram. <br/><br/>
 
                                                         The design and development process for the application began in November 2020, so more information is to come.
