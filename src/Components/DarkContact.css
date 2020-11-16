@@ -43,7 +43,7 @@
 @media only screen and (max-width: 600px) {
     .contact-page-dark {
         padding-top: 20%;
-        height: 60vh;
+        height: 70vh;
     }
 
     .n1-dark {
@@ -58,13 +58,13 @@
 /* tablet in portrait mode */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
     .contact-page-dark {
-        height: 45vh;
+        height: 55vh;
     }
 }
 
 /* large laptops / desktops / ipad pro */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .contact-page-dark {
-        height: 40vh;
+        height: 60vh;
     }
 }

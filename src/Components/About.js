@@ -23,7 +23,7 @@ export default function About() {
 
     // render() {
         return(
-            <div>
+            // <div>
                 <div className="about-pg">
                     <Container>
                         <Row>
@@ -172,13 +172,12 @@ export default function About() {
                                 <br/>
                             </Col>
                         </Row>
+                        <br/>
                     </Container>
-                </div>
 
-                <div className="sticky-contact">
                     <DarkContact/>
                 </div>
-            </div>
+            // </div>
         );
     // }
 }
