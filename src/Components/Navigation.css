@@ -106,11 +106,25 @@ ul li {
         margin-top: 1%;
     }
 }
-  
-/* tablets */
-@media screen and (min-width: 601px) and (max-width: 1100px){
+
+/* tablet in portrait mode */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
     .bm-burger-button {
+        width: 24px;
+        height: 12px;
         margin-top: 1%;
+    }
+    
+    .bm-burger-bars {
+        background: #caa6a1;
+    }
+}
+  
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bm-burger-button {
+        margin-top: 0%;
+        margin-left: 1%;
     }
     
     .bm-burger-bars {

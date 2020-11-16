@@ -28,7 +28,15 @@
 /* tablet in portrait mode */
 @media only screen and (min-width: 600px) and (max-width: 991px) {
     .logo-right {
-        margin-top: 5%;
+        margin-top: 4%;
+        margin-right: 3%;
+    }
+}
+
+/* large laptops / desktops / ipad pro */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo-right {
+        margin-top: 2.7%;
         margin-right: 3%;
     }
 }
