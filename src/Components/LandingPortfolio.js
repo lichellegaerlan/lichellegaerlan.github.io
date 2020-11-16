@@ -50,7 +50,7 @@ export default function Portfolio() {
                     <Row>
                         <Col xs={12} sm={12} md={12} lg={12}>
                             <h1 className="landing-portfolio-header">Recent Projects</h1>
-                            <Link to="/portfolio" className="landing-portfolio-link">View Portfolio</Link> <br/><br/><br/>
+                            <Link to="/portfolio" className="landing-portfolio-link">View Portfolio</Link> <br/><br/>
                         </Col>
 
                         <Col xs={12} sm={12} md={6} lg={4} className="landing-pic-container">
