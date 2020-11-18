@@ -92,7 +92,7 @@ export default function About() {
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">person_pin</i><span className="tab"><h2 className="process-headers">Empathize and Identify</h2></span> <br/>
-                                                <p className="about-text">
+                                                <p className="process-text">
                                                     I believe that it is extremely essential to understand user's and stakeholder's goals, values, and challenges.
                                                     To understand their needs, I conduct user interviews to learn about their stories, experiences, needs, and painpoints. Additionally, I 
                                                     believe that it is also important to conduct market analysis in order to evaluate how I can accurately and uniquely fulfill the user's needs.
@@ -102,7 +102,7 @@ export default function About() {
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">search</i><span className="tab"><h2 className="process-headers">Analyze and Define</h2></span> <br/>
-                                                <p className="about-text">
+                                                <p className="process-text">
                                                     By being able to learn about the user's story, I then analyze the research I've gathered in order to define the 
                                                     user's point of view, as well as the main challenges that user's face. At this stage, I construct user personas to 
                                                     outline the target demographic.  
@@ -112,7 +112,7 @@ export default function About() {
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">create</i><span className="tab"><h2 className="process-headers">Ideate and Design</h2></span> <br/>
-                                                <p className="about-text">
+                                                <p className="process-text">
                                                 I begin brainstorming and creating the information architecture. Afterwards, I can create quick sketches of the user flow
                                                 and wireframing the key features for the product. As the process continues, I use Figma to create interactive mockups and prototypes.
                                                 Although I'm still a beginner with the software, I've been trying to learn Adobe XD as of late.
@@ -122,7 +122,7 @@ export default function About() {
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">build</i><span className="tab"><h2 className="process-headers">Implement and Test</h2></span> <br/>
-                                                <p className="about-text">
+                                                <p className="process-text">
                                                 After creating a detailed, interactive prototype, I will conduct usability testing and receive feedback
                                                 from both user's and stakeholder's in order to iteratively improve the product's design.
                                                 </p>

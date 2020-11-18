@@ -38,8 +38,12 @@
     font-size: 24px;
 }
 
+.close-icon {
+    cursor: pointer;
+}
+
 .process-icons {
-    color: #794f47;
+    color: #bb8c86;
     font-size: 13px;
 }
 
@@ -86,6 +90,13 @@
 .about-text {
     text-align: left;
     font-size: 80%;
+}
+
+.process-text {
+    font-family: "Helvetica";
+    font-weight: 100; 
+    color: #666;
+    font-size: 100%;
 }
 
 .stats {
@@ -165,7 +176,7 @@
 .process-headers {
     font-family: "Oxygen";
     font-weight: 100;
-    color: #794f47;
+    color: #bb8c86;
     text-align: left;
     letter-spacing: 1px;
     font-size: 100%;
@@ -177,7 +188,7 @@
     font-weight: 500;
     font-size: 85%;
     color: #fff;
-    background-color: #caa6a1;
+    background-color: #bb8c86;
     text-transform: uppercase;
     letter-spacing: 1px;
     border-style: none;
