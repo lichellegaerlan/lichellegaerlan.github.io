@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lichellegaerlan.github.io/static/css/main.fdf17d87.chunk.css",
-    "main.js": "/lichellegaerlan.github.io/static/js/main.6daad394.chunk.js",
-    "main.js.map": "/lichellegaerlan.github.io/static/js/main.6daad394.chunk.js.map",
+    "main.css": "/lichellegaerlan.github.io/static/css/main.5870ff52.chunk.css",
+    "main.js": "/lichellegaerlan.github.io/static/js/main.ee1fd6cc.chunk.js",
+    "main.js.map": "/lichellegaerlan.github.io/static/js/main.ee1fd6cc.chunk.js.map",
     "runtime-main.js": "/lichellegaerlan.github.io/static/js/runtime-main.5ea52255.js",
     "runtime-main.js.map": "/lichellegaerlan.github.io/static/js/runtime-main.5ea52255.js.map",
     "static/css/2.6a770793.chunk.css": "/lichellegaerlan.github.io/static/css/2.6a770793.chunk.css",
-    "static/js/2.53f62ad3.chunk.js": "/lichellegaerlan.github.io/static/js/2.53f62ad3.chunk.js",
-    "static/js/2.53f62ad3.chunk.js.map": "/lichellegaerlan.github.io/static/js/2.53f62ad3.chunk.js.map",
+    "static/js/2.663eca64.chunk.js": "/lichellegaerlan.github.io/static/js/2.663eca64.chunk.js",
+    "static/js/2.663eca64.chunk.js.map": "/lichellegaerlan.github.io/static/js/2.663eca64.chunk.js.map",
     "index.html": "/lichellegaerlan.github.io/index.html",
-    "precache-manifest.9d1d20a11468b2724963ca860ca07cb5.js": "/lichellegaerlan.github.io/precache-manifest.9d1d20a11468b2724963ca860ca07cb5.js",
+    "precache-manifest.908ba8e7e18ea7729d603accd8262422.js": "/lichellegaerlan.github.io/precache-manifest.908ba8e7e18ea7729d603accd8262422.js",
     "service-worker.js": "/lichellegaerlan.github.io/service-worker.js",
     "static/css/2.6a770793.chunk.css.map": "/lichellegaerlan.github.io/static/css/2.6a770793.chunk.css.map",
-    "static/css/main.fdf17d87.chunk.css.map": "/lichellegaerlan.github.io/static/css/main.fdf17d87.chunk.css.map",
-    "static/js/2.53f62ad3.chunk.js.LICENSE.txt": "/lichellegaerlan.github.io/static/js/2.53f62ad3.chunk.js.LICENSE.txt",
+    "static/css/main.5870ff52.chunk.css.map": "/lichellegaerlan.github.io/static/css/main.5870ff52.chunk.css.map",
+    "static/js/2.663eca64.chunk.js.LICENSE.txt": "/lichellegaerlan.github.io/static/js/2.663eca64.chunk.js.LICENSE.txt",
     "static/media/LichelleMaeGaerlan_Resume.pdf": "/lichellegaerlan.github.io/static/media/LichelleMaeGaerlan_Resume.3a4253d1.pdf",
     "static/media/Readit.png": "/lichellegaerlan.github.io/static/media/Readit.6ccaa8f2.png",
     "static/media/Soulmates.png": "/lichellegaerlan.github.io/static/media/Soulmates.0625c9fe.png",
@@ -21,14 +21,17 @@
     "static/media/landing-test.png": "/lichellegaerlan.github.io/static/media/landing-test.c39d57d2.png",
     "static/media/networks.png": "/lichellegaerlan.github.io/static/media/networks.e1671b4c.png",
     "static/media/parkinn.png": "/lichellegaerlan.github.io/static/media/parkinn.0d1a975c.png",
+    "static/media/readit-requirements.jpg": "/lichellegaerlan.github.io/static/media/readit-requirements.42b6e820.jpg",
+    "static/media/readit-userflow.jpg": "/lichellegaerlan.github.io/static/media/readit-userflow.eddc8398.jpg",
+    "static/media/readit-wireframe.jpg": "/lichellegaerlan.github.io/static/media/readit-wireframe.4b7b2494.jpg",
     "static/media/ui.png": "/lichellegaerlan.github.io/static/media/ui.20b9077a.png",
     "static/media/web.png": "/lichellegaerlan.github.io/static/media/web.7f1d28c1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5ea52255.js",
     "static/css/2.6a770793.chunk.css",
-    "static/js/2.53f62ad3.chunk.js",
-    "static/css/main.fdf17d87.chunk.css",
-    "static/js/main.6daad394.chunk.js"
+    "static/js/2.663eca64.chunk.js",
+    "static/css/main.5870ff52.chunk.css",
+    "static/js/main.ee1fd6cc.chunk.js"
   ]
 }
