@@ -35,8 +35,7 @@
 
 .home-links:hover {
     color: #fff;
-    font-weight: 400;
-    /* font-style: italic; */
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -192,5 +191,10 @@
   .landing-image {
     width: 410px;
     height: 495px;
+  }
+
+  .home-links {
+      /* padding: top right bottom left */
+      padding: 0px 30px 0px 30px;
   }
 }

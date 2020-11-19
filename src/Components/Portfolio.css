@@ -23,7 +23,6 @@
     font-family: "Oxygen";
     font-weight: 600;
     color: #794f47;
-    font-size: 100%;
     text-decoration: none;
 }
 
@@ -397,5 +396,15 @@
     .landing-portfolio-pics {
         height: 187px;
         width: 307px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .landing-portfolio-header {
+        font-size: 250%;
+    }
+
+    .landing-portfolio-link {
+        font-size: 150%;
     }
 }
