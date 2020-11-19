@@ -10,6 +10,9 @@ import { ExpandMore } from '@material-ui/icons';
 
 import ParkInn from './parkinn.png';
 import Readit from './Readit.png';
+import ReaditRequirements from './readit-requirements.jpg';
+import ReaditWireframe from './readit-wireframe.jpg';
+import ReaditFlow from './readit-userflow.jpg';
 import Soulmates from './Soulmates.png';
 
 export default function Portfolio() {
@@ -103,11 +106,11 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        Conduct user interviews and competitive market analysis <br/>
-                                                        Used the findings from my research to write technical reports and documentation regarding our product's goals,
+                                                        - Conduct user interviews and competitive market analysis <br/>
+                                                        - Used the findings from my research to write technical reports and documentation regarding our product's goals,
                                                         which was later presented to our advisor before we began prototyping and development <br/>
-                                                        Create wireframes and prototypes using Figma <br/>
-                                                        Write frontend code using React JS and Material UI <br/>
+                                                        - Create wireframes and prototypes using Figma <br/>
+                                                        - Write frontend code using React JS and Material UI <br/>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -208,11 +211,11 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        Conduct user interviews and competitive market analysis <br/>
-                                                        Used the findings from my research to create user personas and 
+                                                        - Conduct user interviews and competitive market analysis <br/>
+                                                        - Used the findings from my research to create user personas and 
                                                         write technical reports and documentation regarding our product's goals <br/>
-                                                        Create wireframes <br/>
-                                                        Create interactive prototypes using Figma <br/>
+                                                        - Create wireframes <br/>
+                                                        - Create interactive prototypes using Figma <br/>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -231,6 +234,9 @@ export default function Portfolio() {
                                                         for Readit was driven by how often his friends would exchange book recommendations, without being able to conglomerate all recommendations
                                                         efficiently, and in one place. <br/><br/>
 
+                                                        By meeting with my client, I was able to gauge and lay out the requirements he needed for the project, as shown below. <br/><br/>
+                                                        <img src={ReaditRequirements} className="readit-requirements" alt="readit-requirements" /> <br/><br/>
+
                                                         I later conducted market research to see how current applications on the market, such as GoodReads and Spotify, may be 
                                                         unfulfilling to users. I also conducted user interviews to understand how often users share books with their friends,
                                                         what motivates users to read, and what painpoints users are experience with current products on the market. <br/><br/>
@@ -248,7 +254,10 @@ export default function Portfolio() {
                                                         After analyzing the user's goals, motivations, and painpoints, I began a high-level brainstorm for how the product should operate. 
                                                         First, I defined key features that were needed based off my findings. Then, I created the product's information architecture and sketched out the 
                                                         general design and user flow for the product. I presented the information architecture, user flow, and wireframe to Daee to ensure that
-                                                        the goal and vision he had for Readit was being met. <br/><br/>
+                                                        the goal and vision he had for Readit was being met, as shown below. <br/><br/>
+
+                                                        <img src={ReaditFlow} className="readit-flow" alt="readit-flow" /> <br/><br/>
+                                                        <img src={ReaditWireframe} className="readit-wireframe" alt="readit-wireframe" /> <br/><br/>
 
                                                         After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>interactive prototype on Figma</a>. <br/><br/>
                                                         

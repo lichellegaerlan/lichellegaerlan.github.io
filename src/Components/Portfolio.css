@@ -215,6 +215,21 @@
     font-size: 125%;
 }
 
+.readit-requirements {
+    width: 435.6px;
+    height: 336.6px;
+}
+
+.readit-flow {
+    width: 448.8px;
+    height: 580.8px;
+}
+
+.readit-wireframe {
+    height: 448.8px;
+    width: 580.8px;
+}
+
 .soulmates-header {
     font-family: "Helvetica";
     font-weight: 100;
@@ -344,6 +359,23 @@
 
     .readit-header {
         font-size: 100%;
+    }
+
+    .readit-requirements {
+        /*     width: 435.6px;
+    height: 336.6px; */
+        width: 217.8px;
+        height: 168.3px;
+    }
+    
+    .readit-flow {
+        width: 291.72px;
+        height: 377.52px;
+    }
+    
+    .readit-wireframe {
+        height: 224.4px;
+        width: 290.4px;
     }
 
     .soulmates-page {

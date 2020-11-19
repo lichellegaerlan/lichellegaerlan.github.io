@@ -88,8 +88,11 @@
 }
 
 .about-text {
+    font-family: "Helvetica";
+    font-weight: 100; 
     text-align: left;
     font-size: 80%;
+    color: #666;
 }
 
 .process-text {
