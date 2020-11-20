@@ -9,6 +9,10 @@ import { ExpandMore } from '@material-ui/icons';
 
 import DarkContact from './DarkContact.js';
 import ParkInn from './parkinn.png';
+import ParkInnWireframe from './parkinn-wireframe.jpg';
+import ParkInnMock1 from './parkinn-mockup1.png';
+import ParkInnMock2 from './parkinn-mockup2.png';
+import ParkInnMock3 from './parkinn-mockup3.png';
 import Readit from './Readit.png';
 import ReaditRequirements from './readit-requirements.jpg';
 import ReaditWireframe from './readit-wireframe.jpg';
@@ -97,7 +101,7 @@ export default function Portfolio() {
 
                                                         The application was developed in Spring 2020 by a group of students and I during our Software Product Design course.<br/><br/>
 
-                                                        <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }}>View Source Code</a>
+                                                        <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }} className="bold-link">View Source Code</a>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -133,8 +137,6 @@ export default function Portfolio() {
                                                         prices, and notifying users about lot closures. This became a defining feature to our product. Our team felt that it was pertinent
                                                         to allow businesses to manage the parking lots themselves, as it would create a better, informative experience for both stakeholders and customers. <br/><br/>
                                                         
-                                                        {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Analysis Report</a> */}
-                                                        
                                                         <font color="#73a9cf">Analyze and Define</font> <br/>                                                        
                                                         By conducting user interviews, and even putting myself into the position of a potential user, I understood
                                                         that users just wanted a simple, clean, and straightforward way to be able to view and reserve spots in certain lots with
@@ -143,14 +145,21 @@ export default function Portfolio() {
                                                         a better user experience could be created since users would be notified about price changes on spots or lot closures due to events.
                                                         As such, we came to the conclusion that this would be a defining, unique feature to our product. <br/><br/>
 
-                                                        {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View User Persona</a> */}
+                                                        If you're interested in reading about the research and analysis findings, you can <a href="https://docs.google.com/document/d/10aM2IDMAd5OIEPZpaNqih1xhRRRcX-yKB98u7BjKQLk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }} className="bold-link">view the research and analysis document on Google Drive.</a> <br/><br/>
 
                                                         <font color="#73a9cf">Ideate and Design</font> <br/>                                                        
                                                         After conducting research and analyzing the current problem, I met with my team to discuss my findings and suggesting
                                                         core features necessary to create our product based off of my findings. With this in mind, I wireframed and prototyped the product using Figma. <br/><br/>
-                                                        {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Wireframe</a> */}
-                                                        {/* <a href="" target="_blank" style={{ color: "#73a9cf", textDecoration: "none" }}>View Paper Prototype</a> */}
-                                                        
+
+                                                        Below shows an image of the application's basic wireframe, which laid out the information architecture and basic features we wanted to implement. <br/><br/>
+                                                        <img src={ParkInnWireframe} className="readit-wireframe" alt="parkinn-wireframe" /> <br/><br/>
+
+                                                        Since our team only had 10 weeks for research, design, and development, I unfortunately did not have time to create an interactive prototype.
+                                                        However, I did create some mockups to layout the potential UI for the project. The mockups I created were shown below. <br/><br/>
+                                                        <img src={ParkInnMock1} className="parkinn-mockup1" alt="parkinn-mockup-dash" /> <br/><br/>
+                                                        <img src={ParkInnMock2} className="parkinn-mockup2" alt="parkinn-mockup-stats" /> <br/><br/>
+                                                        <img src={ParkInnMock3} className="parkinn-mockup2" alt="parkinn-mockup-lots" /> <br/><br/>
+
                                                         <font color="#73a9cf">Implement and Test</font> <br/>                                                        
                                                         I presented my prototype to my team and my professor for approval before moving forward with implementation. 
                                                         Since I was also responsible for developing the web application's frontend, I was able to iteratively test and present 
@@ -158,7 +167,7 @@ export default function Portfolio() {
 
                                                         My team and I worked incredibly hard to develop a beautiful, efficient, and useful product. Upon final presentation, we 
                                                         had were able to host both the mobile and web applications. After presenting, we had received a lot of positive feedback. 
-                                                        Due to costs, we could not keep our server live, but the source code can be found <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }}>on my Github</a>.
+                                                        Due to costs, we could not keep our server live, but the source code can be found <a href="https://github.com/lichellegaerlan/parkinn" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }} className="bold-link">on my Github</a>.
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -211,10 +220,10 @@ export default function Portfolio() {
                                                         users can set their status to the book that they're currently reading, search for new books, find friends and visit
                                                         their profiles, and view statistics regarding their reading progress. <br/><br/>
 
-                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a>. 
                                                         Readit was originally created for Daee and I to create something fun for each of our portfolios. <br/><br/>
 
-                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>View Interactive Prototype on Figma</a>
+                                                        <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">View Interactive Prototype on Figma</a>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>
@@ -241,7 +250,7 @@ export default function Portfolio() {
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
                                                         <font color="#a2a9d4">Empathize and Identify</font> <br/>
-                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>Daee Kang</a>. 
+                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a>. 
                                                         His vision was to develop a mobile application that could blend elements from GoodReads, Spotify, and Instagram, such that
                                                         users would be able to read, share, and find books in a social media setting. I had a conversation with Daee to gain a better
                                                         understanding of his visions, goals, and motivations for this project. After talking to Daee, I found that the goal he had
@@ -273,7 +282,7 @@ export default function Portfolio() {
                                                         <img src={ReaditFlow} className="readit-flow" alt="readit-flow" /> <br/><br/>
                                                         <img src={ReaditWireframe} className="readit-wireframe" alt="readit-wireframe" /> <br/><br/>
 
-                                                        After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }}>interactive prototype on Figma</a>. <br/><br/>
+                                                        After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">interactive prototype on Figma</a>. <br/><br/>
                                                         
                                                         <font color="#a2a9d4">Implement and Test</font> <br/>                                                        
                                                         I presented my prototype to Daee for feedback and approval. He was happy with how the product's prototype came out,
@@ -341,7 +350,7 @@ export default function Portfolio() {
 
                                                         The design and development process for the application began in November 2020, so more information is to come.
                                                         Although Soulmates is still a work in progress, feel free to 
-                                                        <a href="https://www.figma.com/proto/8psR2WxCqynonuuFLHEbM6/Soulmates?node-id=1%3A2&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#D46F6F", textDecoration: "none" }}> view my interactive prototyping journey on Figma</a>. <br/>
+                                                        <a href="https://www.figma.com/proto/8psR2WxCqynonuuFLHEbM6/Soulmates?node-id=1%3A2&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#D46F6F", textDecoration: "none" }} className="bold-link"> view my interactive prototyping journey on Figma</a>. <br/>
                                                     </p>
                                                 </ExpansionPanelDetails>
                                             </ExpansionPanel>

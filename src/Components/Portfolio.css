@@ -13,15 +13,14 @@
 }
 
 .landing-portfolio-link {
-    font-family: "Oxygen";
+    font-family: "Helvetica";
     font-weight: 100;
     color: #794f47;
     font-size: 100%;
 }
 
 .landing-portfolio-link:hover {
-    font-family: "Oxygen";
-    font-weight: 600;
+    font-weight: 500;
     color: #794f47;
     text-decoration: none;
 }
@@ -31,6 +30,10 @@
     padding-top: 5%;
     padding-bottom: 1%;
     text-align: left;
+}
+
+.bold-link:hover {
+    font-weight: 500;
 }
 
 .pic-container {
@@ -230,6 +233,16 @@
     width: 580.8px;
 }
 
+.parkinn-mockup1 {
+    width: 385px;
+    height: 280px;
+}
+
+.parkinn-mockup2 {
+    width: 385px;
+    height: 350px;
+}
+
 .soulmates-header {
     font-family: "Helvetica";
     font-weight: 100;
@@ -376,6 +389,16 @@
     .readit-wireframe {
         height: 224.4px;
         width: 290.4px;
+    }
+
+    .parkinn-mockup1 {
+        width: 275px;
+        height: 200px;
+    }
+    
+    .parkinn-mockup2 {
+        width: 275px;
+        height: 250px;
     }
 
     .soulmates-page {
