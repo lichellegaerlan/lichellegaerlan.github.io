@@ -38,7 +38,7 @@ export default function About() {
 
                                 <Row>
                                     <Col xs={3} sm={3} md={3} lg={3}>
-                                        <p className="about-text stats">
+                                        <p className="about-text">
                                             <b><font color="#bb8c86">Name</font></b> <br/>
                                             <b><font color="#bb8c86">Location</font></b> <br/>
                                             <b><font color="#bb8c86">Education</font></b> <br/>
@@ -47,7 +47,7 @@ export default function About() {
                                         </p>
                                     </Col>
                                     <Col xs={9} sm={9} md={9} lg={9}>
-                                        <p className="about-text stats">
+                                        <p className="about-text">
                                             Lichelle Gaerlan <br/>
                                             Las Vegas, Nevada <br/>
                                             BS in Computer Science <br/>
@@ -65,18 +65,14 @@ export default function About() {
                                     My passion for technology and design began when I was a kid
                                     creating HTML/CSS layouts on MySpace and Tumblr for fun. <br/><br/>
     
-                                    I later decided to pursue a degree in Computer Science because I truly enjoyed spending my free-time creating beautiful, functional aesthetics and experiences during
-                                    my early web development days. 
-                                    
-                                    {/* During my last semester, I took a Software Product Design course, where I 
-                                    gained experience in conducting user research, writing competitive analysis reports, creating prototypes, and improving my responsive frontend development skills. This course
-                                    truly made me fall in love with combining design and code.  */}
-                                    
-                                    <br/><br/>
+                                    I later decided to pursue a degree in Computer Science because I truly enjoyed spending my free-time creating beautiful, functional aesthetics 
+                                    and experiences during my early web development days. Although my university background is in Computer Networking and IT, I still find my
+                                    experience and knowledge in the field to be useful in design and development. My experience is networking has taught me how to create unique solutions, 
+                                    and to be meticulous, attentive, and engaged when diagnosing and helping clients solve their problems. <br/><br/>
     
-                                    I love the process of creating meaningful experiences for users. I enjoy empathizing with
-                                    users in order to pinpoint their problems and design creative solutions. I am passionate about how design and
-                                    technology can bring about change in a vast majority of fields, like business, marketing, and education. <br/><br/>
+                                    I love the process of creating meaningful experiences for users. I enjoy listening to user's tell their stories,
+                                    and being able to pinpoint their problems and design creative solutions that convey a user's goals, interests, and motivations. 
+                                    I am passionate about how design and technology can bring about change in a vast majority of fields, like business, marketing, and education. <br/><br/>
     
                                     <button className="process-button" onClick={handleClickOpen}>My Process</button>
                                     <Dialog fullScreen open={open} onClose={handleClose}>
@@ -94,8 +90,8 @@ export default function About() {
                                                 <i className="mat-icons process-icons">person_pin</i><span className="tab"><h2 className="process-headers">Empathize and Identify</h2></span> <br/>
                                                 <p className="process-text">
                                                     I believe that it is extremely essential to understand user's and stakeholder's goals, values, and challenges.
-                                                    To understand their needs, I conduct user interviews to learn about their stories, experiences, needs, and painpoints. Additionally, I 
-                                                    believe that it is also important to conduct market analysis in order to evaluate how I can accurately and uniquely fulfill the user's needs.
+                                                    At this stage is where I conduct user research and interviews to learn more about their story and to understand their needs. 
+                                                    During this stage, I also find importance in conducting market analysis as a means of determining how I can deliver unique, innovative solutions.
                                                 </p>
                                                 <br/>
                                             </Col> 
@@ -103,28 +99,36 @@ export default function About() {
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">search</i><span className="tab"><h2 className="process-headers">Analyze and Define</h2></span> <br/>
                                                 <p className="process-text">
-                                                    By being able to learn about the user's story, I then analyze the research I've gathered in order to define the 
-                                                    user's point of view, as well as the main challenges that user's face. At this stage, I construct user personas to 
-                                                    outline the target demographic.  
+                                                    After being able to listen to and gain insight from conducting user research, it is essential for me 
+                                                    to take a step back and analyze my findings. Here, I can look over everything I've learned and conflate
+                                                    the information to ultimately define the user's point of view, goals, and problems. With this information, 
+                                                    I will construct user personas at this stage to visually represent the target demographic. Through analysis, I am more
+                                                    equipped to define the requirements for the product to present to the client.
                                                 </p>
                                                 <br/>
                                             </Col> 
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">create</i><span className="tab"><h2 className="process-headers">Ideate and Design</h2></span> <br/>
-                                                <p className="process-text">
-                                                I begin brainstorming and creating the information architecture. Afterwards, I can create quick sketches of the user flow
-                                                and wireframing the key features for the product. As the process continues, I use Figma to create interactive mockups and prototypes.
-                                                Although I'm still a beginner with the software, I've been trying to learn Adobe XD as of late.
-                                                </p>
+                                                    <p className="process-text">
+                                                        During this step, I will utilize my research and analysis to begin brainstorming and creating the information architecture of the product. 
+                                                        Afterwards, I will create wireframes and sketches of the user flow, and present that to stakeholders to ensure that their requirements
+                                                        are being met. Afterwards, I will use Figma to create interactive mockups and prototypes. Recently, I've been messing around and transitioning 
+                                                        to using Adobe XD.
+                                                    </p>
                                                 <br/>
                                             </Col> 
 
                                             <Col xs={12} sm={12} md={12} lg={6}>
                                                 <i className="mat-icons process-icons">build</i><span className="tab"><h2 className="process-headers">Implement and Test</h2></span> <br/>
                                                 <p className="process-text">
-                                                After creating a detailed, interactive prototype, I will conduct usability testing and receive feedback
-                                                from both user's and stakeholder's in order to iteratively improve the product's design.
+                                                    After creating a detailed, interactive prototype, I will conduct usability and A/B testing. I love being able to receive feedback
+                                                    from both user's and stakeholder's, as it gives me the opportunity to ensure that their needs are being accurately represented. 
+                                                    Doing so allows me to iteratively improve the intuitiveness and efficiency of the product's design before final delivery. <br/><br/>
+                                                    
+                                                    In some of my personal projects, I have implemented the frontend of my designs, usually using HTML/CSS and React JS.
+                                                    However, my background in web development allowed me to understand how to effectively articulate the design
+                                                    specifications programmatically. 
                                                 </p>
                                                 <br/>
                                             </Col> 
@@ -146,21 +150,21 @@ export default function About() {
     
                             <Col xs={12} sm={12} md={12} lg={4} className="col-styles">
                                 <h1 className="about-headers">Personality</h1>
-                                <p className="about-text">
-                                    <a href="https://www.16personalities.com/intj-personality" className="about-links" target="_blank" rel="noopener noreferrer"><b>The Architect (INTJ)</b></a> — Myer Briggs Type <br/>
-                                    "Imaginative and strategic thinkers, with a plan for everything.
-                                    These thoughtful tacticians love perfecting the details of life, 
-                                    applying creativity and rationality to everything they do."
-                                </p>
+                                    <p className="about-text">
+                                        <a href="https://www.16personalities.com/intj-personality" className="about-links" target="_blank" rel="noopener noreferrer"><b>The Architect (INTJ)</b></a> — Myer Briggs Type <br/>
+                                        "Imaginative and strategic thinkers, with a plan for everything.
+                                        These thoughtful tacticians love perfecting the details of life, 
+                                        applying creativity and rationality to everything they do."
+                                    </p>
                                 <br/>
     
                                 <h2 className="about-headers">Goals</h2>
-                                <p className="about-text">
-                                <font color="#B48079">‣</font> To use my talent and creativity to create unique solutions <br/>
-                                <font color="#B48079">‣</font> To use my experience in IT to understand how to empathize with, identify painpoints, and deliver solutions to clients <br/>
-                                <font color="#B48079">‣</font> To use my passion for designing, coding, and connecting with clients in useful ways <br/>
-                                <font color="#B48079">‣</font> To use my skills to contribute to a team, and to continually build my skills in turn
-                                </p>
+                                    <p className="about-text">
+                                        I'm focused on creating meaningful, efficient experiences through design.
+                                        Defined as a generalist - my skill set is multifaceted. While I approach problem-solving strategically, I come alive when collaborating with others to 
+                                        tell stories about solutions that matter. More importantly, I'm a lifelong learner. I enjoy learning about and listening to client's and user's stories 
+                                        in order to design strategies, products, and services that help mend their painpoints and accomplish any goals discussed.
+                                    </p>
                                 <br/>
     
                                 <h2 className="about-headers">Tech Usage</h2>

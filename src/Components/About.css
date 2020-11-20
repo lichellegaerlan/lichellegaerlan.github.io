@@ -262,6 +262,10 @@
     .process-button {
         margin-right: 5px;
     }
+
+    .process-text {
+        font-size: 80%;;
+    }
 }
   
 /* tablet in portrait mode */
