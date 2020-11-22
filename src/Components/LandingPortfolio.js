@@ -125,7 +125,7 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        <font color="#73a9cf">Empathize and Identify</font> <br/>
+                                                        <b><font color="#73a9cf">Empathize and Identify</font></b> <br/>
                                                         My group and I started ParkInn because we were frustrated with finding parking at our university and across the city.
                                                         Later, I conducted user interviews to assess the goals and painpoints of my group members, students, and faculty members
                                                         at our university. <br/> <br/>
@@ -135,7 +135,7 @@ export default function Portfolio() {
                                                         prices, and notifying users about lot closures. This became a defining feature to our product. Our team felt that it was pertinent
                                                         to allow businesses to manage the parking lots themselves, as it would create a better, informative experience for both stakeholders and customers. <br/><br/>
                                                                                                                 
-                                                        <font color="#73a9cf">Analyze and Define</font> <br/>                                                        
+                                                        <b><font color="#73a9cf">Analyze and Define</font></b> <br/>                                                        
                                                         By conducting user interviews, and even putting myself into the position of a potential user, I understood
                                                         that users just wanted a simple, clean, and straightforward way to be able to view and reserve spots in certain lots with
                                                         a similar system to placing movie theater recommendations. Conducting market analysis also allowed me to recognize that
@@ -145,7 +145,7 @@ export default function Portfolio() {
 
                                                         If you're interested in reading about the research and analysis findings, you can <a href="https://docs.google.com/document/d/10aM2IDMAd5OIEPZpaNqih1xhRRRcX-yKB98u7BjKQLk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: "#73a9cf", textDecoration: "none" }} className="bold-link">view the research and analysis document on Google Drive.</a> <br/><br/>
 
-                                                        <font color="#73a9cf">Ideate and Design</font> <br/>                                                        
+                                                        <b><font color="#73a9cf">Ideate and Design</font></b> <br/>                                                        
                                                         After conducting research and analyzing the current problem, I met with my team to discuss my findings and suggesting
                                                         core features necessary to create our product based off of my findings. With this in mind, I wireframed and prototyped the product using Figma. <br/><br/>
                                                         
@@ -153,12 +153,12 @@ export default function Portfolio() {
                                                         <img src={ParkInnWireframe} className="readit-wireframe" alt="parkinn-wireframe" /> <br/><br/>
 
                                                         Since our team only had 10 weeks for research, design, and development, I unfortunately did not have time to create an interactive prototype.
-                                                        However, I did create some mockups to layout the potential UI for the project. The mockups I created were shown below. <br/><br/>
+                                                        However, I did create some mockups to layout the potential UI for the project. The mockups I created are shown below. <br/><br/>
                                                         <img src={ParkInnMock1} className="parkinn-mockup1" alt="parkinn-mockup-dash" /> <br/><br/>
                                                         <img src={ParkInnMock2} className="parkinn-mockup2" alt="parkinn-mockup-stats" /> <br/><br/>
                                                         <img src={ParkInnMock3} className="parkinn-mockup2" alt="parkinn-mockup-lots" /> <br/><br/>
                                                         
-                                                        <font color="#73a9cf">Implement and Test</font> <br/>                                                        
+                                                        <b><font color="#73a9cf">Implement and Test</font></b> <br/>                                                        
                                                         I presented my prototype to my team and my professor for approval before moving forward with implementation. 
                                                         Since I was also responsible for developing the web application's frontend, I was able to iteratively test and present 
                                                         the design and user experience of our product with my team members, classmates, and professor throughout its development.
@@ -206,8 +206,8 @@ export default function Portfolio() {
                                                         users can set their status to the book that they're currently reading, search for new books, find friends and visit
                                                         their profiles, and view statistics regarding their reading progress. <br/><br/>
 
-                                                        This project was designed by me, and ideated and implemented by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a>. 
-                                                        Readit was originally created for Daee and I to create something fun for each of our portfolios. <br/><br/>
+                                                        For this product, I conducted user research and designed the user interface for my client, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a> (Konami Software Engineer). 
+                                                        <br/><br/>
 
                                                         <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">View Interactive Prototype on Figma</a>
                                                     </p>
@@ -235,8 +235,9 @@ export default function Portfolio() {
                                                 </ExpansionPanelSummary>
                                                 <ExpansionPanelDetails>
                                                     <p className="parkinn-text">
-                                                        <font color="#a2a9d4">Empathize and Identify</font> <br/>
-                                                        The project was presented to me by my friend and former university classmate, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a>. 
+                                                        <b><font color="#a2a9d4">Empathize and Identify</font></b> <br/>
+                                                        My client, <a href="https://github.com/daee-kang" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">Daee Kang</a> (Konami Software Engineer)
+                                                        came to me to design Readit, as he planned to develop the application. 
                                                         His vision was to develop a mobile application that could blend elements from GoodReads, Spotify, and Instagram, such that
                                                         users would be able to read, share, and find books in a social media setting. I had a conversation with Daee to gain a better
                                                         understanding of his visions, goals, and motivations for this project. After talking to Daee, I found that the goal he had
@@ -250,7 +251,7 @@ export default function Portfolio() {
                                                         unfulfilling to users. I also conducted user interviews to understand how often users share books with their friends,
                                                         what motivates users to read, and what painpoints users are experience with current products on the market. <br/><br/>
                                                         
-                                                        <font color="#a2a9d4">Analyze and Define</font> <br/>                                                        
+                                                        <b><font color="#a2a9d4">Analyze and Define</font></b> <br/>                                                        
                                                         With the research gained from conducting market analysis and user interviews, I could identify and empathize with the 
                                                         target demographic's goals and painpoints. Through research, I found that although users default to using GoodReads due to 
                                                         the application's established popularity, users were unsatisifed with how complicated it was to find friends, find books,
@@ -259,7 +260,7 @@ export default function Portfolio() {
                                                         With this information in mind, I was able to analyze the problem with exisitng applications, and define a new method
                                                         of approaching the solution to these problems. <br/><br/>
 
-                                                        <font color="#a2a9d4">Ideate and Design</font> <br/>                                                        
+                                                        <b><font color="#a2a9d4">Ideate and Design</font></b> <br/>                                                        
                                                         After analyzing the user's goals, motivations, and painpoints, I began a high-level brainstorm for how the product should operate. 
                                                         First, I defined key features that were needed based off my findings. Then, I created the product's information architecture and sketched out the 
                                                         general design and user flow for the product. I presented the information architecture, user flow, and wireframe to Daee to ensure that
@@ -270,7 +271,7 @@ export default function Portfolio() {
 
                                                         After laying out Readit's features, I created an <a href="https://www.figma.com/proto/bosU1zlXfJJDjLmf4P5Hnm/Readit?node-id=76%3A47&scaling=scale-down" target="_blank" rel="noopener noreferrer" style={{ color: "#a2a9d4", textDecoration: "none" }} className="bold-link">interactive prototype on Figma</a>. <br/><br/>
                                                         
-                                                        <font color="#a2a9d4">Implement and Test</font> <br/>                                                        
+                                                        <b><font color="#a2a9d4">Implement and Test</font></b> <br/>                                                        
                                                         I presented my prototype to Daee for feedback and approval. He was happy with how the product's prototype came out,
                                                         and found the user interface to be clean, efficient, and intuitive. The product was also presented to various users,
                                                         both avid and sporadic readers, who also found the product to be pleasant and straightforward to use. <br/><br/>
