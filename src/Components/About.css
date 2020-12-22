@@ -95,6 +95,10 @@
     color: #666;
 }
 
+.bio {
+    font-size: 75%;
+}
+
 .process-text {
     font-family: "Helvetica";
     font-weight: 100; 
